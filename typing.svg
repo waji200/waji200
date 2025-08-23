@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="700" height="110" viewBox="0 0 700 110" role="img" aria-label="Typing banner">
+  <style><![CDATA[
+    @font-face{
+      font-family: 'FiraCodeLocal';
+      src: local('Fira Code'), local('FiraCode');
+    }
+    text { font-family: FiraCodeLocal, "Fira Code", "Segoe UI", Roboto, monospace; font-weight: 600; fill:#e6eef8; font-size:18px; }
+    .muted { fill: #b8c9dd; font-weight:500; }
+    .cursor { fill: #7dd3fc; }
+  ]]></style>
+
+  <!-- background (transparent) and subtle rounded rectangle -->
+  <rect x="6" y="6" width="688" height="98" rx="12" ry="12" fill="transparent" stroke="rgba(255,255,255,0.03)" />
+
+  <!-- Definitions for masking (used to reveal text as if it's typed) -->
+  <defs>
+    <!-- Cursor (visible/hidden) animation -->
+    <rect id="cursor-rect" x="0" y="0" width="8" height="22" class="cursor" rx="2" ry="2" />
+
+    <!-- Masks for three lines. Each mask reveals the line by animating a rect width -->
+    <mask id="m1" maskUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="700" height="110" fill="black"/>
+      <rect id="m1r" x="10" y="18" width="0" height="28" fill="white">
+        <animate attributeName="width" from="0" to="680" dur="2.6s" begin="0s" fill="freeze" />
+      </rect>
+    </mask>
+
+    <mask id="m2" maskUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="700" height="110" fill="black"/>
+      <rect id="m2r" x="10" y="48" width="0" height="28" fill="white">
+        <!-- starts after line1 types and a tiny pause -->
+        <animate attributeName="width" from="0" to="680" dur="3.0s" begin="3.2s" fill="freeze" />
+      </rect>
+    </mask>
+
+    <mask id="m3" maskUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="700" height="110" fill="black"/>
+      <rect id="m3r" x="10" y="78" width="0" height="28" fill="white">
+        <!-- starts after line2 -->
+        <animate attributeName="width" from="0" to="680" dur="3.0s" begin="6.6s" fill="freeze" />
+      </rect>
+    </mask>
+  </defs>
+
+  <!-- Line 1 (visible via mask m1) -->
+  <g mask="url(#m1)">
+    <text x="12" y="40">Hi there 👋, I'm <tspan style="fill:#7dd3fc">Wajahat Baig</tspan>!</text>
+  </g>
+
+  <!-- Line 2 (visible via mask m2) -->
+  <g mask="url(#m2)">
+    <text x="12" y="70" class="muted">Frontend Developer • React • Next.js</text>
+  </g>
+
+  <!-- Line 3 (visible via mask m3) -->
+  <g mask="url(#m3)">
+    <text x="12" y="100" class="muted">E-Commerce Specialist • Shopify • Medusa.js • Supabase</text>
+  </g>
+
+  <!-- Cursor: it's positioned and animated to blink, and also moves along with the typing effect -->
+  <!-- For moving cursor, we animate its x attribute in sync with each line's animation -->
+  <g>
+    <!-- Cursor for line 1 -->
+    <rect x="12" y="18" width="8" height="22" rx="2" ry="2" class="cursor">
+      <!-- Blink -->
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="0s" />
+      <!-- Move to end of line1 after it types (approx) -->
+      <animate attributeName="x" from="12" to="420" dur="2.6s" begin="0s" fill="freeze" />
+      <!-- move down to line 2 at 3.3s -->
+      <animate attributeName="y" from="18" to="48" begin="3.3s" dur="0.01s" fill="freeze" />
+      <!-- move to approximate end of line2 while typing -->
+      <animate attributeName="x" from="12" to="420" dur="3.0s" begin="3.3s" fill="freeze" />
+      <!-- move down to line 3 at 6.7s -->
+      <animate attributeName="y" from="48" to="78" begin="6.7s" dur="0.01s" fill="freeze" />
+      <!-- move to approximate end of line3 while typing -->
+      <animate attributeName="x" from="12" to="540" dur="3.0s" begin="6.7s" fill="freeze" />
+    </rect>
+  </g>
+
+  <!-- Make sure the accessibility label is present for screen readers -->
+  <title>Typing banner for Wajahat Baig — Frontend Developer</title>
+</svg>
