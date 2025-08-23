@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="140" height="120" viewBox="0 0 140 120"
+     role="img" aria-labelledby="trophyTitle trophyDesc">
+  <title id="trophyTitle">Gold trophy icon</title>
+  <desc id="trophyDesc">A gold trophy with a small sparkle animation</desc>
+
+  <defs>
+    <linearGradient id="goldGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff5b1"/>
+      <stop offset="45%" stop-color="#ffd24d"/>
+      <stop offset="100%" stop-color="#e6a200"/>
+    </linearGradient>
+
+    <radialGradient id="shine" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Grouped trophy (translated to fit canvas) -->
+  <g transform="translate(6,8)">
+
+    <!-- Cup top (ellipse) -->
+    <ellipse cx="62" cy="28" rx="44" ry="22" fill="url(#goldGrad)" stroke="#b88600" stroke-width="1.6"/>
+
+    <!-- Cup body -->
+    <rect x="40" y="30" width="44" height="20" rx="6" fill="url(#goldGrad)" stroke="#b88600" stroke-width="1.4"/>
+
+    <!-- Stem -->
+    <rect x="58" y="52" width="8" height="16" rx="2" fill="url(#goldGrad)" stroke="#b88600" stroke-width="1"/>
+
+    <!-- Base layers -->
+    <rect x="44" y="70" width="36" height="10" rx="3" fill="#3b2d00"/>
+    <rect x="36" y="80" width="52" height="10" rx="3" fill="#4c3910"/>
+
+    <!-- Handles (stylized curves) -->
+    <path d="M16 30 C8 28 8 48 16 50" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M108 30 C116 28 116 48 108 50" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Subtle shine -->
+    <ellipse cx="40" cy="18" rx="18" ry="8" fill="url(#shine)" />
+
+    <!-- Sparkle (animated star) -->
+    <g transform="translate(96,8)">
+      <polygon points="6,0 8.1,5 13,6 9.2,9.6 10.1,15 6,12 1.9,15 2.8,9.6 -0.9,6 4,5"
+               fill="#fff9c4" opacity="0">
+        <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite" begin="0.4s"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="scale"
+                          values="0.75;1.15;0.75" dur="2.4s" repeatCount="indefinite" begin="0.4s"/>
+      </polygon>
+    </g>
+
+  </g>
+</svg>
