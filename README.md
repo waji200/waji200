@@ -1,80 +1,71 @@
+<!-- Typing SVG Banner -->
 <p align="center">
-  <img src="./typing.svg" alt="Typing banner" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hi+There!+👋+I'm+Wajahat+Baig;Frontend+Developer+%7C+3D+Creative+Coder;React+%7C+Next.js+%7C+Shopify+%7C+Medusa.js;Blender+%7C+Three.js+%7C+React-Three-Fiber" alt="Typing SVG" />
 </p>
 
 ---
 
-# 👨‍💻 About Me  
+## 🧑‍🚀 About Me  
 
-🔹 **Frontend Developer** specializing in **React.js & Next.js**  
-🔹 Passionate about **design systems, animations, and accessibility**  
-🔹 Experienced with **e-commerce development** (Shopify, Medusa.js, Supabase auth flows)  
-🔹 Always exploring new tools to make web apps **faster, cleaner, and more delightful**  
-
-🌱 Currently learning: **Edge functions, Server Components, and advanced animations**  
-💬 Ask me about: **Frontend performance, UI/UX best practices, and e-commerce setups**  
-
----
-
-## 🚀 Tech Arsenal  
-
-### 🖥️ Frontend
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge)
-![Shadcn/UI](https://img.shields.io/badge/-Shadcn%2FUI-000000?style=for-the-badge)
-![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?logo=framer&logoColor=white&style=for-the-badge)
-
-### ⚡ Full-Stack Tools
-![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white&style=for-the-badge)
-![NextAuth](https://img.shields.io/badge/-NextAuth-000000?style=for-the-badge)
-![Medusa.js](https://img.shields.io/badge/-Medusa.js-1A202C?style=for-the-badge)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
-
-### 🛍️ E-Commerce
-![Shopify](https://img.shields.io/badge/-Shopify-96BF48?logo=shopify&logoColor=white&style=for-the-badge)
-![Medusa](https://img.shields.io/badge/-Medusa.js-00A6FB?style=for-the-badge)
-
-### 🔧 Tools & Workflow
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge)
-![VS Code](https://img.shields.io/badge/-VS_Code-0078d7?logo=visual-studio-code&logoColor=white&style=for-the-badge)
+- 🚀 **Frontend Engineer** passionate about building modern, performant web apps  
+- 🛒 **E-Commerce Specialist** → Shopify · Medusa.js · Supabase · NextAuth  
+- 🧊 **3D Enthusiast** → Blender · Three.js · React Three Fiber  
+- 🎨 **Creative Designer** → Adobe Photoshop · Illustrator  
+- 🧩 Advocate for **accessibility**, **security**, and **clean architecture**  
+- 🌌 Love blending **3D creativity** with **scalable frontend engineering**  
 
 ---
 
-## 💡 What I Build  
+## 🛠️ Tech Stack  
 
-✅ **Modern Frontends** — React & Next.js apps with TypeScript, Tailwind, and smooth animations  
-✅ **E-Commerce Experiences** — Shopify stores, Medusa.js storefronts, and secure checkout flows  
-✅ **Authentication Systems** — Supabase Auth + NextAuth with role-based access  
-✅ **Scalable UI Systems** — Shadcn/UI + Tailwind design systems for reusable components  
-✅ **Performance & Accessibility** — Optimized, SEO-friendly, and inclusive applications  
-
----
-
-## 📊 GitHub Analytics  
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=waji200&show_icons=true&theme=radical&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=waji200&layout=compact&theme=radical&hide_border=true)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=waji200&theme=radical&hide_border=true)  
-![Trophy](https://github-profile-trophy.vercel.app/?username=waji200&theme=radical&no-frame=true&row=1&column=6)
-
-</div>
-
----
-
-## 📬 Connect with Me  
-
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINK" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" /></a>
-  <a href="https://YOUR_PORTFOLIO.com" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" /></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" /></a>
+<p align="center">
+  <!-- Frontend -->
+  <img src="https://skillicons.dev/icons?i=react,next,ts,tailwind,redux,graphql" />
+  <br/>
+  <!-- Backend & Ecommerce -->
+  <img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres" />
+  <br/>
+  <!-- Creative & 3D -->
+  <img src="https://skillicons.dev/icons?i=blender,threejs,figma,ai,ps" />
 </p>
 
 ---
 
-⭐️ From [Wajahat Baig](https://github.com/YOUR_USERNAME)
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=waji200&show_icons=true&theme=radical&hide_border=true" height="180" />
+  <img src="https://streak-stats.demolab.com?user=waji200&theme=radical&hide_border=true" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=waji200&layout=compact&theme=radical&hide_border=true" height="150"/>
+</p>
+
+---
+
+## 🌐 Connect With Me  
+
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  <a href="mailto:your-email@gmail.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+  <a href="https://waji200.github.io" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+</p>
+
+---
+
+## 🎇 Fun Touch – 3D Inspired Quote  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="3D Snake animation" />
+</p>
+
+<p align="center">
+  <em>"Code is the brush, imagination is the canvas – I paint in 3D & JavaScript 🌌"</em>
+</p>
