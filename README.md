@@ -38,6 +38,44 @@ Think of me as a developer who loves to **blend React components with Blender re
 
 ---
 
+## 🏆 Featured Project
+
+<div align="center">
+
+### 🍬 Abou Arab Haider E-Commerce Website  
+**Client:** Abou Arab Haider (135-year-old Syrian sweets brand)  
+**Duration:** 9 weeks · **Completed:** Jun 3, 2025  
+
+---
+
+🌍 **Bilingual, Heritage-Rich E-Commerce Platform**  
+A custom-built **Next.js + MedusaJS** e-commerce site designed to reflect a century-old legacy while delivering a seamless shopping experience in **Arabic (RTL)** and **English (LTR)**.  
+
+---
+
+#### 🔹 The Challenge  
+- Bi-directional layouts (RTL & LTR)  
+- Animated progress scroll-line (SVG + JS)  
+- Seamless storytelling UI for a heritage brand  
+
+#### 🔹 The Solution  
+- **Frontend:** Next.js · TypeScript · Tailwind · shadcn/ui  
+- **Backend:** MedusaJS · Supabase (forms)  
+- **Design:** Figma · Custom SVG animations  
+- **Infra:** Dockerized deployment via Coolify  
+
+#### 🔹 The Results  
+✔ Smooth bilingual experience  
+✔ Elegant storytelling-driven UI  
+✔ Optimized CI/CD & performance benchmarks met  
+
+---
+
+✨ _“The client praised the visual storytelling, bilingual flow, and animations that honored their 135-year legacy.”_
+
+</div>
+
+
 # 📊 GitHub Universe 🌌
 
 <p align="center">
