@@ -2,16 +2,51 @@ name: Update README
 on:
   push:
     paths: ['projects.json']
+  workflow_dispatch: # Allows manual trigger
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - run: node generate-readme.js
-      - run: |
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Debug - List files
+        run: ls -la
+        
+      - name: Check if projects.json exists
+        run: |
+          if [ ! -f "projects.json" ]; then
+            echo "❌ projects.json not found!"
+            exit 1
+          fi
+          echo "✅ projects.json found"
+          cat projects.json
+          
+      - name: Generate README
+        run: node generate-readme.js
+        
+      - name: Check if README was generated
+        run: |
+          if [ ! -f "README.md" ]; then
+            echo "❌ README.md was not generated!"
+            exit 1
+          fi
+          echo "✅ README.md generated successfully"
+          
+      - name: Commit changes
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Auto-update README from projects.json" || exit 0
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-update README from projects.json"
+            git push
+          fi
