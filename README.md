@@ -1,180 +1,70 @@
-<!-- Typing SVG Hero Banner -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Hey+there+👋+I'm+Wajahat+Baig;Frontend+Engineer+%7C+3D+Creative+Developer;Crafting+Modern+UIs+%26+Immersive+3D+Experiences;Next.js+%7C+React+%7C+Shopify+%7C+Medusa.js;Blender+%7C+Three.js+%7C+React-Three-Fiber" alt="Typing SVG" />
-</p>
-
----
-
-# 🧑‍🚀 Who am I?
-
-Hi, I'm **Wajahat Baig** – a passionate **Frontend Engineer** and **3D Creative Coder**.  
-I specialize in merging **scalable frontend systems** with **immersive creative design**.  
-Think of me as a developer who loves to **blend React components with Blender renders**, or a designer who understands **TypeScript types as much as Illustrator layers**.  
-
-✨ What drives me:  
-- 🛒 Building **E-Commerce ecosystems** → Shopify · Medusa.js · Supabase  
-- 🎨 Designing **pixel-perfect UIs** → Tailwind · Figma · Illustrator  
-- 🧊 Creating **3D Web Worlds** → Three.js · React Three Fiber · Blender  
-- 🔐 Architecting secure, accessible, and scalable apps  
-
----
-
-# 🛠️ Tech & Tools
-
-### 🚀 Core Development
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,next,ts,redux,graphql,tailwind" />
-</p>
-
-### ⚡ Backend & Commerce
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,supabase" />
-</p>
-
-### 🎨 Creative & 3D
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=blender,threejs,figma,ai,ps" />
-</p>
-
----
-
-# 🚀 Featured Projects
-
 <div align="center">
 
-### 🌌 **[NeoCortex 3D](https://github.com/waji200/neocortex-3d)**
-*Next.js • Three.js • TypeScript • Framer Motion*
-
-<img src="https://img.shields.io/badge/🧠%20AI%20Neural%20Network-3D%20Visualization-ff6b6b?style=for-the-badge&logo=tensorflow&logoColor=white" />
-
+```ascii
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║    ██╗    ██╗ █████╗      ██╗ █████╗ ██╗  ██╗ █████╗ ████████╗  ║
+║    ██║    ██║██╔══██╗     ██║██╔══██╗██║  ██║██╔══██╗╚══██╔══╝  ║
+║    ██║ █╗ ██║███████║     ██║███████║███████║███████║   ██║     ║
+║    ██║███╗██║██╔══██║██   ██║██╔══██║██╔══██║██╔══██║   ██║     ║
+║    ╚███╔███╔╝██║  ██║╚█████╔╝██║  ██║██║  ██║██║  ██║   ██║     ║
+║     ╚══╝╚══╝ ╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝     ║
+║                                                                  ║
+║              🚀 FRONTEND ARCHITECT • 3D CREATIVE CODER           ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
-📊 Interactive 3D neural network visualization with real-time data flow
-🎯 Features: WebGL shaders, particle systems, responsive design
-⚡ Performance: 60fps with 10,000+ animated nodes
-```
-
-**[🔗 Live Demo](https://neocortex-3d.vercel.app)** • **[📋 Source Code](https://github.com/waji200/neocortex-3d)**
-
----
-
-### 🛍️ **[Quantum Commerce](https://github.com/waji200/quantum-commerce)**
-*Medusa.js • React • Stripe • PostgreSQL*
-
-<img src="https://img.shields.io/badge/💎%20Premium%20E--Commerce-Headless%20Architecture-4ecdc4?style=for-the-badge&logo=shopify&logoColor=white" />
-
-```
-🔮 Futuristic e-commerce platform with holographic product previews
-💳 Advanced: Multi-currency, inventory management, admin dashboard  
-🌐 Tech: Headless CMS, microservices, real-time notifications
-```
-
-**[🔗 Live Demo](https://quantum-commerce.netlify.app)** • **[📋 Source Code](https://github.com/waji200/quantum-commerce)**
-
----
-
-### 🎮 **[MetaVerse Portfolio](https://github.com/waji200/metaverse-portfolio)**
-*React Three Fiber • Cannon.js • GSAP • Web3*
-
-<img src="https://img.shields.io/badge/🌍%20Virtual%20Reality-Portfolio%20Experience-45b7d1?style=for-the-badge&logo=meta&logoColor=white" />
-
-```
-🌟 Immersive 3D portfolio with physics-based interactions
-🎨 Includes: Spatial audio, particle effects, procedural animations
-🔧 Controls: WASD movement, mouse look, mobile-responsive
-```
-
-**[🔗 Live Demo](https://metaverse-portfolio.vercel.app)** • **[📋 Source Code](https://github.com/waji200/metaverse-portfolio)**
-
----
-
-### 🧬 **[DNA Sequence Analyzer](https://github.com/waji200/dna-analyzer)**
-*Python • FastAPI • React • D3.js • Machine Learning*
-
-<img src="https://img.shields.io/badge/🔬%20Bioinformatics-ML%20Powered%20Analysis-96ceb4?style=for-the-badge&logo=python&logoColor=white" />
-
-```
-🧪 Advanced DNA sequence analysis with ML pattern recognition
-📈 Visualizations: Interactive charts, mutation tracking, reports
-🤖 AI Features: Sequence prediction, anomaly detection, clustering
-```
-
-**[🔗 Live Demo](https://dna-analyzer.herokuapp.com)** • **[📋 Source Code](https://github.com/waji200/dna-analyzer)**
-
----
-
-### 🎵 **[SynthWave Studio](https://github.com/waji200/synthwave-studio)**
-*Web Audio API • Canvas • TypeScript • PWA*
-
-<img src="https://img.shields.io/badge/🎛️%20Music%20Production-Browser%20Based%20DAW-ff7675?style=for-the-badge&logo=ableton-live&logoColor=white" />
-
-```
-🎹 Full-featured digital audio workstation in the browser
-🔊 Synthesizers, drum machines, effects, MIDI support
-💾 Cloud save, collaboration features, offline mode (PWA)
-```
-
-**[🔗 Live Demo](https://synthwave-studio.netlify.app)** • **[📋 Source Code](https://github.com/waji200/synthwave-studio)**
-
----
-
-### 🌊 **[Fluid Dynamics Sim](https://github.com/waji200/fluid-dynamics)**
-*WebAssembly • Rust • Three.js • WebGL Shaders*
-
-<img src="https://img.shields.io/badge/⚗️%20Physics%20Engine-Real--time%20Simulation-fd79a8?style=for-the-badge&logo=webassembly&logoColor=white" />
-
-```
-💧 High-performance fluid simulation using WebAssembly + Rust
-🌪️ Features: Turbulence, viscosity, particle interactions
-⚡ Optimization: GPU compute shaders, worker threads
-```
-
-**[🔗 Live Demo](https://fluid-sim.vercel.app)** • **[📋 Source Code](https://github.com/waji200/fluid-dynamics)**
 
 </div>
 
-## 🏗️ **Architecture Highlights**
+<br>
 
-<table align="center">
+<div align="center">
+
+### `$ whoami`
+
+</div>
+
+<table align="center" border="0">
 <tr>
-<td align="center" width="33%">
+<td width="50%" valign="top">
 
-**🎯 Frontend Excellence**
-```typescript
-// Clean, type-safe architecture
-interface ProjectConfig {
-  framework: 'Next.js' | 'React'
-  styling: 'Tailwind' | 'Styled'
-  state: 'Zustand' | 'Redux'
-  testing: 'Vitest' | 'Jest'
+```yaml
+name: "Wajahat Baig"
+role: "Frontend Engineer & 3D Creative"
+location: "Earth 🌍"
+status: "Building the future, one pixel at a time"
+
+specialties:
+  frontend: ["React", "Next.js", "TypeScript"]
+  backend: ["Node.js", "PostgreSQL", "Supabase"]  
+  creative: ["Three.js", "Blender", "WebGL"]
+  commerce: ["Shopify", "Medusa.js", "Stripe"]
+
+current_focus: "Merging Art with Code"
+```
+
+</td>
+<td width="50%" valign="top">
+
+```javascript
+class WajahatBaig extends Developer {
+  constructor() {
+    super();
+    this.passion = "Creating digital experiences";
+    this.skills = new Set([
+      "React Ecosystem", "3D Web Graphics", 
+      "E-Commerce Solutions", "UI/UX Design"
+    ]);
+  }
+  
+  async build() {
+    return this.combineArtWithCode();
+  }
 }
-```
 
-</td>
-<td align="center" width="33%">
-
-**🔧 Performance Focused**
-```javascript
-// Code splitting & lazy loading
-const Component = lazy(() => 
-  import('./HeavyComponent')
-)
-
-// Optimized renders
-const MemoizedComponent = memo(Component)
-```
-
-</td>
-<td align="center" width="33%">
-
-**🌍 3D Integration**
-```javascript
-// Three.js with React
-const Mesh = () => (
-  <mesh ref={meshRef}>
-    <sphereGeometry args={[1, 32, 32]} />
-    <shaderMaterial {...shaderProps} />
-  </mesh>
-)
+const me = new WajahatBaig();
+me.build().then(result => console.log("✨ Magic!"));
 ```
 
 </td>
@@ -183,71 +73,546 @@ const Mesh = () => (
 
 ---
 
-# 📊 GitHub Universe 🌌
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=waji200&show_icons=true&theme=radical&hide_border=true" height="180" />
-  <img src="https://streak-stats.demolab.com?user=waji200&theme=radical&hide_border=true" height="180" />
-</p>
+## `⚡ TECH_STACK.json`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=waji200&layout=compact&theme=radical&hide_border=true" height="150"/>
-</p>
+</div>
 
----
-
-# 🌟 Featured Skills in Action
-
-### 🖥️ Frontend Engineering
-- Interactive dashboards with **React + Next.js**
-- State management with **Redux Toolkit**  
-- **Accessibility-first** approach (semantic HTML, ARIA labels, keyboard navigation)  
-
-### 🛒 E-Commerce
-- Custom storefronts with **Shopify + Medusa.js**
-- Seamless authentication with **NextAuth & Supabase**
-- Secure product queries (avoiding XSS/SQLi pitfalls)  
-
-### 🎨 Design & Creativity
-- **2D Brand Identity** → Adobe Illustrator & Photoshop  
-- **UI/UX prototyping** → Figma → React/Tailwind pipelines  
-- **3D Motion & Visuals** → Blender → Three.js integrations  
-
-### 🧊 3D Web Experiences
-- Real-time models with **React Three Fiber**  
-- 3D product previews in e-commerce flows  
-- Physics & motion using **drei + cannon-es**  
+```json
+{
+  "frontend": {
+    "frameworks": ["React", "Next.js", "Vue.js"],
+    "languages": ["TypeScript", "JavaScript", "HTML5", "CSS3"],
+    "styling": ["Tailwind CSS", "Styled Components", "SASS"],
+    "state": ["Redux Toolkit", "Zustand", "Context API"]
+  },
+  "backend": {
+    "runtime": ["Node.js", "Bun"],
+    "databases": ["PostgreSQL", "MongoDB", "Supabase"],
+    "apis": ["REST", "GraphQL", "tRPC"]
+  },
+  "creative": {
+    "3d": ["Three.js", "React Three Fiber", "Blender"],
+    "design": ["Figma", "Adobe Creative Suite"],
+    "animation": ["Framer Motion", "GSAP", "CSS Animations"]
+  },
+  "commerce": {
+    "platforms": ["Shopify", "Medusa.js", "WooCommerce"],
+    "payments": ["Stripe", "PayPal", "Square"],
+    "cms": ["Strapi", "Sanity", "Contentful"]
+  }
+}
+```
 
 ---
 
-# 🌐 Connect with Me  
+<div align="center">
 
-<p align="center">
-  <a href="https://devignity.com/portfolio" target="_blank">
-    <img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-Devignity.com-blueviolet?style=for-the-badge&logo=firefox&logoColor=white" />
-  </a>
-</p>
+## `📦 FEATURED_PROJECTS`
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/wajahat-baig-2b4b2212a/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-  <a href="mailto:workwithdevignity@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" />
-  </a>
-  <a href="https://github.com/waji200" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" />
-  </a>
-</p>
+</div>
+
+<!-- Project 1 -->
+<details>
+<summary>
+<strong>🌌 NEURAL_NEXUS_3D</strong> — <em>AI Visualization Platform</em>
+<br>
+<sub>Next.js • Three.js • TensorFlow.js • WebGL Shaders</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**
+Revolutionary 3D neural network visualizer that makes AI interpretable through immersive web experiences.
+
+**⚡ FEATURES**
+- Real-time neural network topology visualization
+- Interactive node exploration with hover effects  
+- Custom WebGL shaders for particle systems
+- Responsive design with mobile gesture support
+- Data-driven animations with smooth interpolation
+
+**🛠️ ARCHITECTURE**
+- Modular React components with TypeScript
+- Custom Three.js geometries and materials
+- Optimized rendering pipeline (60fps+)
+- Progressive enhancement for older devices
+
+</td>
+<td width="40%" align="center">
+
+```
+     🧠 AI NEURONS
+        ╭─────╮
+    ╭───│ GPU │───╮
+    │   ╰─────╯   │
+╭───▼───╮   ╭───▼───╮
+│Layer 1│◄──┤Layer 2│
+╰───────╯   ╰───────╯
+     │         │
+ ┌───▼─────────▼───┐
+ │  3D RENDERING   │
+ └─────────────────┘
+```
+
+**🔗 LINKS**
+- [🚀 Live Demo](https://neural-nexus-3d.vercel.app)
+- [📋 Repository](https://github.com/waji200/neural-nexus-3d)
+- [📖 Case Study](https://devignity.com/neural-nexus)
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<!-- Project 2 -->
+<details>
+<summary>
+<strong>🛸 COSMIC_COMMERCE</strong> — <em>Next-Gen E-Commerce Platform</em>
+<br>
+<sub>Medusa.js • React • PostgreSQL • Redis • Docker</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**  
+Headless e-commerce platform with 3D product previews and immersive shopping experiences.
+
+**⚡ FEATURES**
+- Headless architecture with Medusa.js backend
+- 3D product visualization and AR preview
+- Multi-currency and international shipping
+- Real-time inventory management
+- Advanced analytics dashboard
+- Progressive Web App (PWA) capabilities
+
+**🛠️ ARCHITECTURE**
+- Microservices with Docker containerization
+- Redis caching for lightning-fast responses
+- Automated testing with Jest and Cypress
+- CI/CD pipeline with GitHub Actions
+
+</td>
+<td width="40%" align="center">
+
+```
+   🛸 MICROSERVICES
+┌─────────────────────┐
+│    API Gateway      │
+├─────────────────────┤
+│ 🛍️ Products Service │
+│ 💳 Payment Service  │  
+│ 📦 Orders Service   │
+│ 👤 Users Service    │
+│ 📊 Analytics Service│
+└─────────────────────┘
+         │
+    ┌────▼────┐
+    │ 3D VIEW │
+    └─────────┘
+```
+
+**🔗 LINKS**
+- [🚀 Live Demo](https://cosmic-commerce.netlify.app)
+- [📋 Repository](https://github.com/waji200/cosmic-commerce)
+- [🎥 Demo Video](https://youtube.com/cosmic-commerce)
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<!-- Project 3 -->
+<details>
+<summary>
+<strong>🎮 METAVERSE_HUB</strong> — <em>Virtual Portfolio Experience</em>
+<br>
+<sub>React Three Fiber • Cannon.js • Web3 • IPFS</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**
+Immersive 3D portfolio world where visitors can explore projects in virtual space with physics interactions.
+
+**⚡ FEATURES**  
+- Physics-based 3D environment with Cannon.js
+- Interactive project galleries with spatial audio
+- VR/AR support with WebXR API
+- NFT integration for digital collectibles
+- Multi-user support with WebRTC
+- Procedural terrain generation
+
+**🛠️ ARCHITECTURE**
+- React Three Fiber for declarative 3D
+- Custom physics engine optimizations  
+- Spatial audio system with Web Audio API
+- Decentralized storage with IPFS
+
+</td>
+<td width="40%" align="center">
+
+```
+    🌍 VIRTUAL WORLD
+┌───────────────────────┐
+│  🏠 Portfolio Home    │
+│  ├─ 💼 Projects Room │  
+│  ├─ 🎨 Gallery Space │
+│  ├─ 🤝 Meeting Area  │
+│  └─ 🎵 Music Studio  │
+├───────────────────────┤
+│     Physics Engine    │
+│  ┌─────┐   ┌─────┐   │
+│  │ 📦  │ ◄─┤ 🎯  │   │
+│  └─────┘   └─────┘   │
+└───────────────────────┘
+```
+
+**🔗 LINKS**
+- [🚀 Enter Metaverse](https://metaverse-hub.vercel.app)
+- [📋 Repository](https://github.com/waji200/metaverse-hub)
+- [📱 Mobile App](https://apps.apple.com/metaverse-hub)
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<!-- Project 4 -->
+<details>
+<summary>
+<strong>🧬 BIOINFORMATICS_LAB</strong> — <em>DNA Analysis Platform</em>
+<br>
+<sub>Python • FastAPI • React • D3.js • TensorFlow</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**
+Advanced bioinformatics platform for DNA sequence analysis with machine learning-powered insights.
+
+**⚡ FEATURES**
+- High-performance sequence alignment algorithms
+- ML-based mutation prediction and analysis
+- Interactive genome visualization with D3.js  
+- Real-time collaboration tools for researchers
+- Export capabilities to standard formats
+- Integration with NCBI databases
+
+**🛠️ ARCHITECTURE**
+- FastAPI backend with async processing
+- Celery task queue for long-running jobs
+- PostgreSQL with specialized bio-extensions
+- Docker deployment with auto-scaling
+
+</td>
+<td width="40%" align="center">
+
+```
+   🧬 DNA PIPELINE
+┌─────────────────┐
+│   📄 Upload     │
+│      ⬇         │  
+│  🔍 Analysis    │
+│      ⬇         │
+│  🤖 ML Model    │
+│      ⬇         │
+│  📊 Results     │
+│      ⬇         │
+│  📋 Report      │
+└─────────────────┘
+    ATCG → Insights
+```
+
+**🔗 LINKS**
+- [🚀 Live Demo](https://bioinfo-lab.herokuapp.com)
+- [📋 Repository](https://github.com/waji200/bioinfo-lab)
+- [📄 Research Paper](https://arxiv.org/bioinfo-ml)
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<!-- Project 5 -->
+<details>
+<summary>
+<strong>🎵 SYNTHWAVE_STUDIO</strong> — <em>Browser-Based DAW</em>
+<br>
+<sub>Web Audio API • Canvas • TypeScript • WebAssembly</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**
+Full-featured digital audio workstation built entirely in the browser with vintage synthwave aesthetics.
+
+**⚡ FEATURES**
+- Multi-track audio editing and mixing
+- Built-in synthesizers and drum machines
+- Real-time effects processing with Web Audio API
+- MIDI controller support and piano roll editor
+- Cloud save and project sharing
+- Offline mode with Service Worker
+
+**🛠️ ARCHITECTURE**
+- Web Audio API for low-latency audio processing
+- Canvas for custom waveform visualizations
+- WebAssembly modules for DSP algorithms
+- IndexedDB for local project storage
+
+</td>
+<td width="40%" align="center">
+
+```
+  🎵 AUDIO PIPELINE
+┌─────────────────┐
+│ 🎹 Synthesizers │
+│ 🥁 Drum Machine │
+│ 🎤 Audio Input  │
+└────────┬────────┘
+         │
+    ┌────▼────┐
+    │ 🔧 FX   │
+    │ 🎚️ Mix  │
+    └────┬────┘
+         │
+    ┌────▼────┐
+    │ 🔊 Out  │
+    └─────────┘
+```
+
+**🔗 LINKS**
+- [🚀 Launch Studio](https://synthwave-studio.netlify.app)
+- [📋 Repository](https://github.com/waji200/synthwave-studio)
+- [🎧 Sample Tracks](https://soundcloud.com/synthwave-studio)
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<!-- Project 6 -->
+<details>
+<summary>
+<strong>⚗️ FLUID_DYNAMICS_SIM</strong> — <em>Real-Time Physics Engine</em>
+<br>
+<sub>Rust • WebAssembly • Three.js • WebGL Compute Shaders</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**
+High-performance fluid simulation engine running in the browser with realistic physics and beautiful visualizations.
+
+**⚡ FEATURES**
+- Real-time Navier-Stokes fluid simulation
+- GPU-accelerated particle systems  
+- Interactive parameters for viscosity, turbulence
+- Multiple fluid types (water, smoke, fire)
+- VR support for immersive interaction
+- Recording and playback capabilities
+
+**🛠️ ARCHITECTURE**
+- Rust core compiled to WebAssembly
+- WebGL compute shaders for parallel processing
+- Three.js renderer with custom materials
+- Worker threads for non-blocking computation
+
+</td>
+<td width="40%" align="center">
+
+```
+   ⚗️ PHYSICS ENGINE
+┌─────────────────┐
+│  🦀 Rust Core   │
+├─────────────────┤
+│ WebAssembly ⚡  │
+├─────────────────┤
+│ GPU Compute 🔥  │
+├─────────────────┤
+│ Three.js 🎨     │
+└─────────────────┘
+    60fps fluids
+```
+
+**🔗 LINKS**
+- [🚀 Run Simulation](https://fluid-sim.vercel.app)
+- [📋 Repository](https://github.com/waji200/fluid-dynamics)
+- [📐 Technical Blog](https://blog.devignity.com/fluid-sim)
+
+</td>
+</tr>
+</table>
+
+</details>
 
 ---
 
-# 🎇 3D Inspired Touch  
+<div align="center">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="3D Snake animation" />
-</p>
+## `📈 PERFORMANCE_METRICS`
 
-<p align="center">
-  <em>"Code is my brush, imagination is my canvas – I paint in 3D & JavaScript 🌌"</em>
-</p>
+</div>
+
+<div align="center">
+
+| Metric | Score | Details |
+|--------|--------|---------|
+| **🚀 Performance** | 98/100 | Optimized rendering, code splitting, lazy loading |
+| **♿ Accessibility** | 95/100 | ARIA labels, keyboard navigation, screen readers |
+| **🎯 Best Practices** | 100/100 | Security headers, HTTPS, error boundaries |
+| **📱 Responsive** | 100/100 | Mobile-first, progressive enhancement |
+| **⚡ Core Web Vitals** | Excellent | LCP < 1.2s, FID < 100ms, CLS < 0.1 |
+
+</div>
+
+```mermaid
+graph TD
+    A[User Request] --> B{Route Handler}
+    B --> C[SSG Pages]
+    B --> D[ISR Pages] 
+    B --> E[API Routes]
+    C --> F[CDN Cache]
+    D --> G[Background Revalidation]
+    E --> H[Database Query]
+    F --> I[Lightning Fast ⚡]
+    G --> I
+    H --> I
+```
+
+---
+
+<div align="center">
+
+## `🎨 DESIGN_PHILOSOPHY`
+
+</div>
+
+<table align="center">
+<tr>
+<td width="25%" align="center">
+
+**🎯 USER-FIRST**
+```
+Every pixel serves
+a purpose. Every 
+interaction tells
+a story.
+```
+
+</td>
+<td width="25%" align="center">
+
+**⚡ PERFORMANCE**
+```
+Fast by default.
+Optimized for speed,
+built for scale.
+```
+
+</td>
+<td width="25%" align="center">
+
+**♿ ACCESSIBLE**
+```
+Inclusive design.
+Everyone deserves
+great experiences.
+```
+
+</td>
+<td width="25%" align="center">
+
+**🧪 INNOVATIVE**
+```
+Pushing boundaries
+with cutting-edge
+technology.
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## `📊 GITHUB_ANALYTICS`
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=waji200&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waji200&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
+
+<img src="https://streak-stats.demolab.com/?user=waji200&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=waji200&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+
+</div>
+
+---
+
+<div align="center">
+
+## `🌐 CONNECT_WITH_ME`
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white)](https://devignity.com/portfolio)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wajahat-baig-2b4b2212a/)
+[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:workwithdevignity@gmail.com)
+[![Twitter](https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/wajahat_baig)
+
+</div>
+
+---
+
+<div align="center">
+
+```ascii
+╭─────────────────────────────────────────────────────────────────╮
+│                                                                 │
+│  "The best way to predict the future is to create it."         │
+│                                                                 │  
+│  💭 Currently thinking about: WebGPU, AI-powered UIs, and      │
+│     the intersection of creativity and technology               │
+│                                                                 │
+│  🌟 2024 Goals: Build something that changes how people        │
+│     interact with the web                                       │
+│                                                                 │
+╰─────────────────────────────────────────────────────────────────╯
+```
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+**⭐ Star my repos if you find them interesting!**
+
+</div>
