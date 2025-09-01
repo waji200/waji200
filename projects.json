@@ -156,8 +156,8 @@
     "challenge": "Building a clean, mobile-responsive landing page from scratch with working form and deploying on a cPanel server, all within a short timeline.",
     "solution": "Designed in Figma, developed with React, TypeScript, and Tailwind CSS, with MobX for state management. Deployed directly to client’s cPanel hosting.",
     "results": "Client was highly satisfied with the design, responsiveness, and overall delivery. The landing page was deployed to production within a week.",
-  }  
-  ,{
+  },
+  {
     "title": "Baidaa",
     "description": "A comprehensive e-commerce platform developed for Baidaa using Shopify. Devignity handled full account setup, inventory and product management, plugin integration, custom features via Liquid, complete graphic design, and an app-like mobile interface tailored for the Saudi market.",
     "createdAt": "2025-03-01",
