@@ -4,13 +4,13 @@
 </p>
 ---
 # 🧑‍🚀 Who am I?
-Hi, I’m Wajahat Baig – a passionate Frontend Engineer and 3D Creative Coder.  
-I specialize in merging scalable frontend systems with immersive creative design.  
-Think of me as a developer who loves to blend React components with Blender renders, or a designer who understands TypeScript types as much as Illustrator layers.  
+Hi, I’m **Wajahat Baig** – a passionate **Frontend Engineer** and **3D Creative Coder**.  
+I specialize in merging **scalable frontend systems** with **immersive creative design**.  
+Think of me as a developer who loves to **blend React components with Blender renders**, or a designer who understands **TypeScript types as much as Illustrator layers**.  
 ✨ What drives me:  
-- 🛒 Building E-Commerce ecosystems → Shopify · Medusa.js · Supabase  
-- 🎨 Designing pixel-perfect UIs → Tailwind · Figma · Illustrator  
-- 🧊 Creating 3D Web Worlds → Three.js · React Three Fiber · Blender  
+- 🛒 Building **E-Commerce ecosystems** → Shopify · Medusa.js · Supabase  
+- 🎨 Designing **pixel-perfect UIs** → Tailwind · Figma · Illustrator  
+- 🧊 Creating **3D Web Worlds** → Three.js · React Three Fiber · Blender  
 - 🔐 Architecting secure, accessible, and scalable apps  
 ---
 # 🛠️ Tech & Tools
@@ -38,21 +38,21 @@ Think of me as a developer who loves to blend React components with Blender rend
 ---
 # 🌟 Featured Skills in Action
 ### 🖥️ Frontend Engineering
-- Interactive dashboards with React + Next.js
-- State management with Redux Toolkit  
-- Accessibility-first approach (semantic HTML, ARIA labels, keyboard navigation)  
+- Interactive dashboards with **React + Next.js**
+- State management with **Redux Toolkit**  
+- **Accessibility-first** approach (semantic HTML, ARIA labels, keyboard navigation)  
 ### 🛒 E-Commerce
-- Custom storefronts with Shopify + Medusa.js
-- Seamless authentication with NextAuth & Supabase
+- Custom storefronts with **Shopify + Medusa.js**
+- Seamless authentication with **NextAuth & Supabase**
 - Secure product queries (avoiding XSS/SQLi pitfalls)  
 ### 🎨 Design & Creativity
-- 2D Brand Identity → Adobe Illustrator & Photoshop  
-- UI/UX prototyping → Figma → React/Tailwind pipelines  
-- 3D Motion & Visuals → Blender → Three.js integrations  
+- **2D Brand Identity** → Adobe Illustrator & Photoshop  
+- **UI/UX prototyping** → Figma → React/Tailwind pipelines  
+- **3D Motion & Visuals** → Blender → Three.js integrations  
 ### 🧊 3D Web Experiences
-- Real-time models with React Three Fiber  
+- Real-time models with **React Three Fiber**  
 - 3D product previews in e-commerce flows  
-- Physics & motion using drei + cannon-es  
+- Physics & motion using **drei + cannon-es**  
 ---
 # 🌐 Connect with Me  
 <p align="center">
