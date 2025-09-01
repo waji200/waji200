@@ -40,6 +40,7 @@
     results:
       "The client was extremely pleased with the final result and praised the visual storytelling and smooth bilingual experience. The website successfully showcases their heritage while functioning as a full-fledged e-commerce platform. Performance benchmarks were met, and the custom animations helped differentiate their digital presence in a highly competitive industry.",
   },
+  
   {
     title: "EveryRep Interactive 3D E-commerce Experience",
     description: "A fully immersive 3D web experience for a sportswear brand, featuring real-time shaders, infinite scroll interactions, and split-screen product browsing.",
