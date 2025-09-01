@@ -77,6 +77,11 @@ Think of me as a developer who loves to **blend React components with Blender re
 
 # 🌐 Connect with Me  
 
+**Abou Arab Haider E-Commerce**  
+Next.js · Supabase · Tailwind  
+_A dynamic e-commerce UI with secure checkout and custom product filters._
+
+
 <p align="center">
   <a href="https://devignity.com/portfolio" target="_blank">
     <img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-Devignity.com-blueviolet?style=for-the-badge&logo=firefox&logoColor=white" />
