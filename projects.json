@@ -57,7 +57,7 @@
       "Tailwind CSS",
       "Figma"
     ],
-    "link": "https://everyrep.com", // replace if different
+    "link": "https://everyrep.com",
     "featured": true,
     "slug": "everyrep-3d-ecommerce",
     "content": "EveryRep, a modern sportswear brand, approached me to create an immersive, interactive 3D website experience that pushes creative and technical boundaries. The goal was to break away from traditional storefronts and let the website become an expressive visual medium. I started with Figma for UX/UI layout and then moved into heavy 3D development using React Three Fiber and GLSL shaders. From an animated logo reveal to an infinite cloth surface with interactive scroll-based camera transitions, this site redefined how users experience product discovery.",
@@ -110,11 +110,9 @@
     "title": "Solatrix",
     "description": "A full-stack mock trading tournament platform powered by the Solana blockchain. Devignity handled everything from Figma design to development using Next.js, TypeScript, Tailwind CSS, Shadcn UI, and React Three Fiber for an interactive 3D hero section.",
     "id": "solatrix-mock-trading",
-    "createdAt": "2025-02-01", // Adjust if needed
-    "updatedAt": "2025-04-20", // Adjust if needed
+    "createdAt": "2025-02-01",    "updatedAt": "2025-04-20",
     "category": "Web App Development",
-    "image": "/projects/solatrix/solatrix-mock-trading-platform-nextjs-typescript-blockchain-solana.png", // Placeholder image
-    "technologies": [
+    "image": "/projects/solatrix/solatrix-mock-trading-platform-nextjs-typescript-blockchain-solana.png",    "technologies": [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
@@ -125,10 +123,10 @@
       "Drei",
       "React Three Stdlib"
     ],
-    "link": "https://solatrix.vercel.app/", // Add live link if available
+    "link": "https://solatrix.vercel.app/",
     "featured": false,
     "slug": "solatrix-mock-trading",
-    "content": "Solatrix is a cutting-edge **mock trading tournament platform** powered by the **Solana blockchain**, developed entirely by **Devignity** — from initial Figma designs to production-ready deployment. The platform simulates real-time trading competitions with blockchain-backed transparency, intuitive user experience, and interactive visual design.\n\nWe began by crafting the complete UI/UX flow in **Figma**, mapping out all user journeys including onboarding, wallet authentication, tournament participation, live leaderboards, and result screens. Once approved by the client, the design was brought to life using **Next.js** with **TypeScript**, styled using **Tailwind CSS**, and enhanced with modular components via **Shadcn UI**.\n\nTo deliver an immersive first impression, we built an animated 3D **hero section** using **React Three Fiber**, **@react-three/drei**, and **@react-three/stdlib**. This included an infinite zooming **starfield effect** with orbital motion **reactive to the user's mouse cursor**, which provided a futuristic, space-themed aesthetic aligned with the platform’s brand identity.\n\nOn the blockchain side, Solatrix connects to the **Solana network** for secure wallet interactions and mock trading mechanics. Though real assets are not traded, the platform mimics authentic Solana workflows to train and engage users in a competitive environment.\n\nKey features "included":\n- Interactive 3D hero animation with stars and orbiting motion\n- Wallet authentication (Solana-based)\n- Joinable mock trading tournaments\n- Real-time leaderboard integration\n- Fully responsive design across devices\n- Full client-side state managed using MobX\n\nThe project was completed in under **12 weeks**, with a strong focus on performance, visual appeal, and modularity. The client was thrilled with the results — especially the animated landing experience and overall design quality.",
+    "content": "Solatrix is a cutting-edge **mock trading tournament platform** powered by the **Solana blockchain**, developed entirely by **Devignity** — from initial Figma designs to production-ready deployment. The platform simulates real-time trading competitions with blockchain-backed transparency, intuitive user experience, and interactive visual design.\n\nWe began by crafting the complete UI/UX flow in **Figma**, mapping out all user journeys including onboarding, wallet authentication, tournament participation, live leaderboards, and result screens. Once approved by the client, the design was brought to life using **Next.js** with **TypeScript**, styled using **Tailwind CSS**, and enhanced with modular components via **Shadcn UI**.\n\nTo deliver an immersive first impression, we built an animated 3D **hero section** using **React Three Fiber**, **@react-three/drei**, and **@react-three/stdlib**. This included an infinite zooming **starfield effect** with orbital motion **reactive to the user's mouse cursor**, which provided a futuristic, space-themed aesthetic aligned with the platform’s brand identity.\n\nOn the blockchain side, Solatrix connects to the **Solana network** for secure wallet interactions and mock trading mechanics. Though real assets are not traded, the platform mimics authentic Solana workflows to train and engage users in a competitive environment.\n\nKey features \"included\":\n- Interactive 3D hero animation with stars and orbiting motion\n- Wallet authentication (Solana-based)\n- Joinable mock trading tournaments\n- Real-time leaderboard integration\n- Fully responsive design across devices\n- Full client-side state managed using MobX\n\nThe project was completed in under **12 weeks**, with a strong focus on performance, visual appeal, and modularity. The client was thrilled with the results — especially the animated landing experience and overall design quality.",
     "gallery": [],
     "client": "Solatrix",
     "duration": "Under 12 weeks",
@@ -141,11 +139,8 @@
     "title": "Pulse",
     "description": "A dynamic mock trading tournament platform featuring weekly competitions, 3D visuals, and immersive UI. Designed and developed using modern web technologies including Next.js, TypeScript, and Three.js.",
     "id": "pulse-tournament-platform",
-    "createdAt": "2025-04-01", // Adjust if needed
-    "updatedAt": "2025-06-25", // Adjust if needed
-    "category": "Web App Development",
-    "image": "/projects/pulse/pulse-mock-trading-platform-nextjs-typescript-blockchain-solana.png", // Replace with actual image
-    "technologies": [
+    "createdAt": "2025-04-01",    "updatedAt": "2025-06-25",    "category": "Web App Development",
+    "image": "/projects/pulse/pulse-mock-trading-platform-nextjs-typescript-blockchain-solana.png",    "technologies": [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
@@ -155,10 +150,10 @@
       "React Tilt",
       "Figma"
     ],
-    "link": "https://pulse.cabbodge.xyz/", // Add live link if available
+    "link": "https://pulse.cabbodge.xyz/",    
     "featured": false,
     "slug": "pulse-tournament-platform",
-    "content": `
+    "content": "
   **Pulse** is a highly interactive **mock trading tournament platform** designed to host **weekly competitions** in a visually rich and performance-optimized environment. The platform was built entirely by the team at **Devignity**, from UI/UX design to production deployment.
   
   The goal was to create a fast, intuitive, and gamified experience that motivates users to participate in recurring trading challenges. The design process started in **Figma**, with special attention paid to user flow, real-time leaderboard visibility, and competitive engagement.
@@ -174,7 +169,7 @@
   - Smooth transitions and animations
   - Real-time UX focus for leaderboard and user states
   
-  The client was very satisfied with the result, especially praising the immersive UI and performance of the 3D features.`,
+  The client was very satisfied with the result, especially praising the immersive UI and performance of the 3D features.",
     "gallery": [],
     "client": "Pulse",
     "duration": "8–10 weeks",
@@ -187,15 +182,12 @@
     "title": "Garrett Riggio (Webflow Showcase)",
     "description": "A polished personal portfolio website built with Webflow, featuring custom scroll‑triggered animations, background videos, and interactive counters to showcase professional achievements and storytelling.",
     "id": "garrett-riggio-webflow",
-    "createdAt": "2025-06-10", // Adjust as needed
-    "updatedAt": "2025-06-20", // Adjust as needed
-    "category": "Webflow Development",
-    "image": "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated.png", // Replace with actual screenshot
-    "technologies": ["Webflow", "Custom JavaScript", "Lottie/Scroll Animations", "Background Video", "Figma"],
+    "createdAt": "2025-06-10",    "updatedAt": "2025-06-20",    "category": "Webflow Development",
+    "image": "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated.png",    "technologies": ["Webflow", "Custom JavaScript", "Lottie/Scroll Animations", "Background Video", "Figma"],
     "link": "https://www.garrettriggio.com/",
     "featured": false,
     "slug": "garrett-riggio-webflow",
-    "content": `
+    "content": "
   This is a fully custom Webflow-built **personal portfolio** for Garrett Riggio, created by Devignity to reflect his leadership in growth consulting and creative strategy. The build focused on smooth, scroll‑connected visuals and seamless brand storytelling.
   
   Key highlights "include":
@@ -209,7 +201,7 @@
     
   The site began with a Figma design that emphasized narrative flow and visual hierarchy. Once approved, we recreated it in Webflow using custom embed code and Webflow Interactions to deliver polished, timeline‑based animations and scroll‑linked effects.
   
-  The project was delivered in under **4 weeks**. The client was pleased with the final result, noting the engaging scroll animations, strong visual storytelling, and professional branding.`,
+  The project was delivered in under **4 weeks**. The client was pleased with the final result, noting the engaging scroll animations, strong visual storytelling, and professional branding.",
     "gallery": [
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-1.png",
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-2.png",
@@ -232,8 +224,7 @@
     "createdAt": "2025-05-10",
     "updatedAt": "2025-06-15",
     "category": "3D Web Experience",
-    "image": "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering.png", // Replace with actual screenshot
-    "technologies": [
+    "image": "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering.png",    "technologies": [
       "Blender",
       "Three.js",
       "React Three Fiber",
@@ -247,7 +238,7 @@
     "link": "https://warehouse-lowpoly.vercel.app/",
     "featured": false,
     "slug": "warehouse-lowpoly-visualization",
-    "content": `
+    "content": "
   This project was crafted by **Devignity** for **Cardinal Storage**, a leading self-storage brand in the United States ([cardinalstorage.com](https://www.cardinalstorage.com)). The goal was to deliver a visually engaging and easily embeddable 3D representation of their warehouse that could be plugged directly into their marketing website.
   
   The entire warehouse environment was **designed and modeled in Blender**, using a clean low-poly art style. Textures were UV mapped and exported in optimized **GLB** format for seamless web performance.
@@ -265,7 +256,7 @@
   After successfully integrating this visualization into the client’s website, Cardinal Storage was highly impressed. They requested a follow-up "project": designing **six unique interior storage units** of various sizes to highlight the differences between unit types. These rooms were also modeled in Blender, exported, and integrated into their live site by the client.
   
   The project was delivered in **3 weeks**, and client feedback was overwhelmingly positive.
-    `,
+    ",
     "gallery": [
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-1.png",
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-2.png",
@@ -291,10 +282,8 @@
     "createdAt": "2025-06-15",
     "updatedAt": "2025-06-20",
     "category": "Web Design & Development",
-    "image": "/projects/arabian-innovation/arabian-innovation-company-react-typescript-tailwind-figma-project.png", // Placeholder image
-    "technologies": ["React", "TypeScript", "Tailwind CSS", "CSS", "MobX", "Figma"],
-    "link": "https://arabianinnovation.com", // Add live link if available
-    "featured": false,
+    "image": "/projects/arabian-innovation/arabian-innovation-company-react-typescript-tailwind-figma-project.png",    "technologies": ["React", "TypeScript", "Tailwind CSS", "CSS", "MobX", "Figma"],
+    "link": "https://arabianinnovation.com",    "featured": false,
     "slug": "arabian-innovation-landing",
     "content": "Devignity led the complete design and development of a corporate landing page for **Arabian Innovation Company**, a leading provider of ecommerce solutions specializing in platform development, fulfillment, and logistics. The goal was to create a clean, modern, and professional online presence that clearly communicated the brand’s capabilities and values.\n\nThe project began with a custom landing page layout designed in **Figma**. After the client’s approval, we transitioned into development using **React**, **TypeScript**, and **Tailwind CSS**. Custom CSS was also applied for fine-grained control over responsiveness and styling. For state management and smoother UI interactions, we integrated **MobX**, ensuring scalability and performance.\n\nA working **contact form** was built and connected with client-side handling and backend submission. The entire solution was optimized for desktop and mobile, though implementing a fully responsive layout required careful handling of design breakpoints and interactions—especially on smaller screens.\n\nOnce development was complete, the final build was deployed directly to the client’s **cPanel server**, ensuring smooth delivery to production within a short timeframe.\n\nThe entire project was completed in **under a week**, with highly positive feedback from the client regarding the design execution, responsiveness, and deployment.",
     "gallery": [],
@@ -312,8 +301,7 @@
     "createdAt": "2025-03-01",
     "updatedAt": "2025-05-20",
     "category": "E-commerce Development",
-    "image": "/projects/baidaa/Baidaa-shopify-ecommerce.png", // Placeholder image
-    "technologies": ["Shopify", "Liquid", "Photoshop", "Illustrator"],
+    "image": "/projects/baidaa/Baidaa-shopify-ecommerce.png",    "technologies": ["Shopify", "Liquid", "Photoshop", "Illustrator"],
     "link": "https://baidaa.ae",
     "featured": false,
     "slug": "baidaa-ecommerce",
@@ -333,12 +321,11 @@
     "createdAt": "2025-01-10",
     "updatedAt": "2025-03-01",
     "category": "E-commerce Development",
-    "image": "/projects/zesty/zesty-shopify-ecommerce.png", // Placeholder image
-    "technologies": ["Shopify", "Liquid", "Photoshop", "Illustrator"],
+    "image": "/projects/zesty/zesty-shopify-ecommerce.png",    "technologies": ["Shopify", "Liquid", "Photoshop", "Illustrator"],
     "link": "https://zesty.pk",
     "featured": false,
     "slug": "zesty-ecommerce",
-    "content": "Zesty, a fashion-forward brand in Pakistan, engaged Devignity to build their Shopify-based e-commerce store from the ground up. The project ran over 7 weeks, during which our team managed everything from initial account configuration to post-launch readiness. We handled inventory and product setup, structured collections, and integrated essential Shopify plugins for order tracking, delivery, and performance optimization.\n\nAlongside the development, Devignity handled all **graphic design and product imagery**. This included designing banners, promotional assets, and advertisements using **Photoshop and Illustrator**, as well as professionally editing product photos for clean, consistent presentation across the storefront.\n\nZesty required several custom functionalities that were developed using Shopify’s Liquid templating system. Though we initially recommended using Hydrogen for greater flexibility, the client preferred the default customization panel so they could manage their storefront independently. Our team adapted accordingly and implemented the required features within these parameters.\n\nOne of the major deliverables was a highly responsive, app-like mobile layout. The client prioritized a native-feeling mobile experience, which required detailed attention to layout, animations, and interaction design.\n\nZesty’s product categories "included":\n- KARANDI\n- MUMMY & ME WINTER VIBES\n- MUMMY & ME WINTER 22\n- FASHION JEWELRY\n\nDespite some limitations within Shopify’s customization ecosystem, the Devignity team delivered a high-performance, visually engaging store. The client was extremely pleased with the final outcome and the website was launched on time.",
+    "content": "Zesty, a fashion-forward brand in Pakistan, engaged Devignity to build their Shopify-based e-commerce store from the ground up. The project ran over 7 weeks, during which our team managed everything from initial account configuration to post-launch readiness. We handled inventory and product setup, structured collections, and integrated essential Shopify plugins for order tracking, delivery, and performance optimization.\n\nAlongside the development, Devignity handled all **graphic design and product imagery**. This included designing banners, promotional assets, and advertisements using **Photoshop and Illustrator**, as well as professionally editing product photos for clean, consistent presentation across the storefront.\n\nZesty required several custom functionalities that were developed using Shopify’s Liquid templating system. Though we initially recommended using Hydrogen for greater flexibility, the client preferred the default customization panel so they could manage their storefront independently. Our team adapted accordingly and implemented the required features within these parameters.\n\nOne of the major deliverables was a highly responsive, app-like mobile layout. The client prioritized a native-feeling mobile experience, which required detailed attention to layout, animations, and interaction design.\n\nZesty’s product categories \"included\":\n- KARANDI\n- MUMMY & ME WINTER VIBES\n- MUMMY & ME WINTER 22\n- FASHION JEWELRY\n\nDespite some limitations within Shopify’s customization ecosystem, the Devignity team delivered a high-performance, visually engaging store. The client was extremely pleased with the final outcome and the website was launched on time.",
     "gallery": [],
     "client": "Zesty",
     "duration": "7 weeks",
@@ -354,8 +341,7 @@
     "createdAt": "2023-09-14",
     "updatedAt": "2023-09-25",
     "category": "3D Modeling & Rendering",
-    "image": "/projects/kreuzContainer/kreuz-container-3d-hero.png", // Assume you will map this to a local or hosted image
-    "technologies": [
+    "image": "/projects/kreuzContainer/kreuz-container-3d-hero.png",    "technologies": [
       "Blender",
       "Cycles",
       "Photoshop",
@@ -394,7 +380,7 @@
     "link": "https://www.behance.net/gallery/206551609/Hard-Edges-3d-Modeling",
     "featured": false,
     "slug": "hard-edges-3d-modeling",
-    "content": "This project showcases a series of hard-surface industrial "models": Chrome Drain, Metal Cable Drain, P-Trap, and Water Connector. The focus was on achieving accurate proportions, sharp edge detailing, and realistic materials for each part. Ideal for commercial or technical visualization, these models highlight attention to geometry, form, and surface finish.",
+    "content": "This project showcases a series of hard-surface industrial \"models\": Chrome Drain, Metal Cable Drain, P-Trap, and Water Connector. The focus was on achieving accurate proportions, sharp edge detailing, and realistic materials for each part. Ideal for commercial or technical visualization, these models highlight attention to geometry, form, and surface finish.",
     "gallery": [
       "/projects/hardEdges/hard-edges-3d-hero.png",
       "/projects/hardEdges/hard-edges-2.jpg",
