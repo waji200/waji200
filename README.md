@@ -1,6 +1,300 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajahat Baig - GitHub Profile Generator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e6ed;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #00f7ff, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #b8bcc8;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        
+        .input-section {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            color: #00f7ff;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .json-input {
+            width: 100%;
+            height: 300px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            font-family: inherit;
+            color: #e0e6ed;
+            font-size: 14px;
+            resize: vertical;
+            transition: all 0.3s ease;
+        }
+        
+        .json-input:focus {
+            outline: none;
+            border-color: #00f7ff;
+            box-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+        }
+        
+        .generate-btn {
+            background: linear-gradient(135deg, #00f7ff, #ff6b6b);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 12px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 247, 255, 0.4);
+        }
+        
+        .output-section {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+        }
+        
+        .markdown-output {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            font-family: inherit;
+            color: #e0e6ed;
+            font-size: 14px;
+            white-space: pre-wrap;
+            max-height: 600px;
+            overflow-y: auto;
+            line-height: 1.6;
+        }
+        
+        .copy-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: #e0e6ed;
+            cursor: pointer;
+            margin-top: 15px;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+        
+        .copy-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-1px);
+        }
+        
+        .example-data {
+            background: rgba(0, 247, 255, 0.1);
+            border: 1px solid rgba(0, 247, 255, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .load-example-btn {
+            background: rgba(0, 247, 255, 0.2);
+            border: 1px solid rgba(0, 247, 255, 0.4);
+            padding: 8px 16px;
+            border-radius: 8px;
+            color: #00f7ff;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        
+        .load-example-btn:hover {
+            background: rgba(0, 247, 255, 0.3);
+        }
+        
+        .tech-badge {
+            background: linear-gradient(135deg, rgba(0, 247, 255, 0.2), rgba(255, 107, 107, 0.2));
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin: 2px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🚀 GitHub README Generator</h1>
+            <p class="subtitle">Transform your projects JSON into a stunning GitHub profile</p>
+        </div>
+        
+        <div class="input-section">
+            <h2 class="section-title">📝 Projects JSON Input</h2>
+            
+            <div class="example-data">
+                <p style="margin-bottom: 10px; color: #00f7ff;">💡 <strong>Example JSON Structure:</strong></p>
+                <p style="font-size: 14px; color: #b8bcc8; margin-bottom: 10px;">Paste an array of project objects with this structure:</p>
+                <button class="load-example-btn" onclick="loadExampleData()">Load Example Data</button>
+            </div>
+            
+            <textarea 
+                class="json-input" 
+                id="jsonInput" 
+                placeholder="Paste your projects JSON array here...
 
-```ascii
+Example:
+[
+  {
+    title: 'Amazing Project',
+    description: 'Project description...',
+    technologies: ['React', 'Node.js'],
+    link: 'https://github.com/...',
+    // ... other fields
+  }
+]"
+            ></textarea>
+            
+            <button class="generate-btn" onclick="generateReadme()">✨ Generate README</button>
+        </div>
+        
+        <div class="output-section">
+            <h2 class="section-title">📋 Generated README.md</h2>
+            <div class="markdown-output" id="output">Generated README will appear here...</div>
+            <button class="copy-btn" onclick="copyToClipboard()">📄 Copy to Clipboard</button>
+        </div>
+    </div>
+
+    <script>
+        const exampleData = [
+            {
+                title: "Kreuz Container 3D Modeling",
+                description: "High-fidelity 3D model and render of an industrial Kreuz container, showcasing realism, lighting, and material accuracy for commercial visualization.",
+                id: "kreuz-container-3d-modeling",
+                createdAt: "2023-09-14",
+                updatedAt: "2023-09-25",
+                category: "3D Modeling & Rendering",
+                image: "/projects/kreuzContainer/kreuz-container-3d-hero.png",
+                technologies: ["Blender", "Cycles", "Photoshop", "Figma"],
+                link: "https://www.behance.net/gallery/207395907/Kreuz-Container-3d-modeling-and-rendering",
+                featured: true,
+                slug: "kreuz-container-3d-modeling",
+                content: "This project involved modeling and rendering a Kreuz container with high realism and attention to detail. The objective was to produce clean, presentation-ready visuals suitable for promotional or commercial use.",
+                challenge: "Capturing industrial realism while maintaining a clean and modern render style.",
+                solution: "The container was modeled in Blender with custom materials using shader nodes.",
+                results: "The final renders were well-received for their realistic detail and presentation value."
+            },
+            {
+                title: "Neural Network Visualizer",
+                description: "Interactive 3D visualization platform for neural networks using Three.js and TensorFlow.js",
+                id: "neural-network-viz",
+                createdAt: "2023-10-01",
+                category: "Web Development & AI",
+                technologies: ["React", "Three.js", "TensorFlow.js", "WebGL"],
+                link: "https://github.com/waji200/neural-viz",
+                featured: true,
+                content: "Revolutionary 3D neural network visualizer that makes AI interpretable through immersive web experiences.",
+                challenge: "Creating smooth 60fps animations with thousands of nodes and connections.",
+                solution: "Implemented GPU-accelerated rendering with custom WebGL shaders and optimized geometry.",
+                results: "Achieved smooth performance with complex visualizations, making AI more accessible."
+            },
+            {
+                title: "E-Commerce Platform",
+                description: "Modern headless e-commerce solution with 3D product previews",
+                id: "ecommerce-platform",
+                createdAt: "2023-08-15",
+                category: "Full-Stack Development",
+                technologies: ["Next.js", "Medusa.js", "PostgreSQL", "Stripe"],
+                link: "https://github.com/waji200/ecommerce-platform",
+                featured: false,
+                content: "Headless e-commerce platform with advanced features and modern UX.",
+                challenge: "Building scalable architecture with real-time inventory management.",
+                solution: "Microservices architecture with Redis caching and automated testing.",
+                results: "Successfully handles high-traffic loads with excellent performance metrics."
+            }
+        ];
+
+        function loadExampleData() {
+            document.getElementById('jsonInput').value = JSON.stringify(exampleData, null, 2);
+        }
+
+        function generateReadme() {
+            const input = document.getElementById('jsonInput').value;
+            
+            if (!input.trim()) {
+                alert('Please enter some JSON data first!');
+                return;
+            }
+            
+            try {
+                const projects = JSON.parse(input);
+                const readme = generateMarkdown(projects);
+                document.getElementById('output').textContent = readme;
+            } catch (error) {
+                alert('Invalid JSON format. Please check your data.');
+                console.error(error);
+            }
+        }
+
+        function generateMarkdown(projects) {
+            const featuredProjects = projects.filter(p => p.featured);
+            const allProjects = projects;
+            
+            return `<div align="center">
+
+\`\`\`ascii
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
 ║    ██╗    ██╗ █████╗      ██╗ █████╗ ██╗  ██╗ █████╗ ████████╗  ║
@@ -13,7 +307,7 @@
 ║              🚀 FRONTEND ARCHITECT • 3D CREATIVE CODER           ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
-```
+\`\`\`
 
 </div>
 
@@ -21,7 +315,7 @@
 
 <div align="center">
 
-### `$ whoami`
+### \`$ whoami\`
 
 </div>
 
@@ -29,7 +323,7 @@
 <tr>
 <td width="50%" valign="top">
 
-```yaml
+\`\`\`yaml
 name: "Wajahat Baig"
 role: "Frontend Engineer & 3D Creative"
 location: "Earth 🌍"
@@ -42,12 +336,12 @@ specialties:
   commerce: ["Shopify", "Medusa.js", "Stripe"]
 
 current_focus: "Merging Art with Code"
-```
+\`\`\`
 
 </td>
 <td width="50%" valign="top">
 
-```javascript
+\`\`\`javascript
 class WajahatBaig extends Developer {
   constructor() {
     super();
@@ -65,7 +359,7 @@ class WajahatBaig extends Developer {
 
 const me = new WajahatBaig();
 me.build().then(result => console.log("✨ Magic!"));
-```
+\`\`\`
 
 </td>
 </tr>
@@ -75,413 +369,25 @@ me.build().then(result => console.log("✨ Magic!"));
 
 <div align="center">
 
-## `⚡ TECH_STACK.json`
+## \`📦 FEATURED_PROJECTS\`
 
 </div>
 
-```json
-{
-  "frontend": {
-    "frameworks": ["React", "Next.js", "Vue.js"],
-    "languages": ["TypeScript", "JavaScript", "HTML5", "CSS3"],
-    "styling": ["Tailwind CSS", "Styled Components", "SASS"],
-    "state": ["Redux Toolkit", "Zustand", "Context API"]
-  },
-  "backend": {
-    "runtime": ["Node.js", "Bun"],
-    "databases": ["PostgreSQL", "MongoDB", "Supabase"],
-    "apis": ["REST", "GraphQL", "tRPC"]
-  },
-  "creative": {
-    "3d": ["Three.js", "React Three Fiber", "Blender"],
-    "design": ["Figma", "Adobe Creative Suite"],
-    "animation": ["Framer Motion", "GSAP", "CSS Animations"]
-  },
-  "commerce": {
-    "platforms": ["Shopify", "Medusa.js", "WooCommerce"],
-    "payments": ["Stripe", "PayPal", "Square"],
-    "cms": ["Strapi", "Sanity", "Contentful"]
-  }
-}
-```
-
----
+${generateProjectsMarkdown(featuredProjects)}
 
 <div align="center">
 
-## `📦 FEATURED_PROJECTS`
+## \`🎯 ALL_PROJECTS\`
 
 </div>
 
-<!-- Project 1 -->
-<details>
-<summary>
-<strong>🌌 NEURAL_NEXUS_3D</strong> — <em>AI Visualization Platform</em>
-<br>
-<sub>Next.js • Three.js • TensorFlow.js • WebGL Shaders</sub>
-</summary>
-
-<br>
-
-<table>
-<tr>
-<td width="60%">
-
-**🎯 CONCEPT**
-Revolutionary 3D neural network visualizer that makes AI interpretable through immersive web experiences.
-
-**⚡ FEATURES**
-- Real-time neural network topology visualization
-- Interactive node exploration with hover effects  
-- Custom WebGL shaders for particle systems
-- Responsive design with mobile gesture support
-- Data-driven animations with smooth interpolation
-
-**🛠️ ARCHITECTURE**
-- Modular React components with TypeScript
-- Custom Three.js geometries and materials
-- Optimized rendering pipeline (60fps+)
-- Progressive enhancement for older devices
-
-</td>
-<td width="40%" align="center">
-
-```
-     🧠 AI NEURONS
-        ╭─────╮
-    ╭───│ GPU │───╮
-    │   ╰─────╯   │
-╭───▼───╮   ╭───▼───╮
-│Layer 1│◄──┤Layer 2│
-╰───────╯   ╰───────╯
-     │         │
- ┌───▼─────────▼───┐
- │  3D RENDERING   │
- └─────────────────┘
-```
-
-**🔗 LINKS**
-- [🚀 Live Demo](https://neural-nexus-3d.vercel.app)
-- [📋 Repository](https://github.com/waji200/neural-nexus-3d)
-- [📖 Case Study](https://devignity.com/neural-nexus)
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<!-- Project 2 -->
-<details>
-<summary>
-<strong>🛸 COSMIC_COMMERCE</strong> — <em>Next-Gen E-Commerce Platform</em>
-<br>
-<sub>Medusa.js • React • PostgreSQL • Redis • Docker</sub>
-</summary>
-
-<br>
-
-<table>
-<tr>
-<td width="60%">
-
-**🎯 CONCEPT**  
-Headless e-commerce platform with 3D product previews and immersive shopping experiences.
-
-**⚡ FEATURES**
-- Headless architecture with Medusa.js backend
-- 3D product visualization and AR preview
-- Multi-currency and international shipping
-- Real-time inventory management
-- Advanced analytics dashboard
-- Progressive Web App (PWA) capabilities
-
-**🛠️ ARCHITECTURE**
-- Microservices with Docker containerization
-- Redis caching for lightning-fast responses
-- Automated testing with Jest and Cypress
-- CI/CD pipeline with GitHub Actions
-
-</td>
-<td width="40%" align="center">
-
-```
-   🛸 MICROSERVICES
-┌─────────────────────┐
-│    API Gateway      │
-├─────────────────────┤
-│ 🛍️ Products Service │
-│ 💳 Payment Service  │  
-│ 📦 Orders Service   │
-│ 👤 Users Service    │
-│ 📊 Analytics Service│
-└─────────────────────┘
-         │
-    ┌────▼────┐
-    │ 3D VIEW │
-    └─────────┘
-```
-
-**🔗 LINKS**
-- [🚀 Live Demo](https://cosmic-commerce.netlify.app)
-- [📋 Repository](https://github.com/waji200/cosmic-commerce)
-- [🎥 Demo Video](https://youtube.com/cosmic-commerce)
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<!-- Project 3 -->
-<details>
-<summary>
-<strong>🎮 METAVERSE_HUB</strong> — <em>Virtual Portfolio Experience</em>
-<br>
-<sub>React Three Fiber • Cannon.js • Web3 • IPFS</sub>
-</summary>
-
-<br>
-
-<table>
-<tr>
-<td width="60%">
-
-**🎯 CONCEPT**
-Immersive 3D portfolio world where visitors can explore projects in virtual space with physics interactions.
-
-**⚡ FEATURES**  
-- Physics-based 3D environment with Cannon.js
-- Interactive project galleries with spatial audio
-- VR/AR support with WebXR API
-- NFT integration for digital collectibles
-- Multi-user support with WebRTC
-- Procedural terrain generation
-
-**🛠️ ARCHITECTURE**
-- React Three Fiber for declarative 3D
-- Custom physics engine optimizations  
-- Spatial audio system with Web Audio API
-- Decentralized storage with IPFS
-
-</td>
-<td width="40%" align="center">
-
-```
-    🌍 VIRTUAL WORLD
-┌───────────────────────┐
-│  🏠 Portfolio Home    │
-│  ├─ 💼 Projects Room │  
-│  ├─ 🎨 Gallery Space │
-│  ├─ 🤝 Meeting Area  │
-│  └─ 🎵 Music Studio  │
-├───────────────────────┤
-│     Physics Engine    │
-│  ┌─────┐   ┌─────┐   │
-│  │ 📦  │ ◄─┤ 🎯  │   │
-│  └─────┘   └─────┘   │
-└───────────────────────┘
-```
-
-**🔗 LINKS**
-- [🚀 Enter Metaverse](https://metaverse-hub.vercel.app)
-- [📋 Repository](https://github.com/waji200/metaverse-hub)
-- [📱 Mobile App](https://apps.apple.com/metaverse-hub)
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<!-- Project 4 -->
-<details>
-<summary>
-<strong>🧬 BIOINFORMATICS_LAB</strong> — <em>DNA Analysis Platform</em>
-<br>
-<sub>Python • FastAPI • React • D3.js • TensorFlow</sub>
-</summary>
-
-<br>
-
-<table>
-<tr>
-<td width="60%">
-
-**🎯 CONCEPT**
-Advanced bioinformatics platform for DNA sequence analysis with machine learning-powered insights.
-
-**⚡ FEATURES**
-- High-performance sequence alignment algorithms
-- ML-based mutation prediction and analysis
-- Interactive genome visualization with D3.js  
-- Real-time collaboration tools for researchers
-- Export capabilities to standard formats
-- Integration with NCBI databases
-
-**🛠️ ARCHITECTURE**
-- FastAPI backend with async processing
-- Celery task queue for long-running jobs
-- PostgreSQL with specialized bio-extensions
-- Docker deployment with auto-scaling
-
-</td>
-<td width="40%" align="center">
-
-```
-   🧬 DNA PIPELINE
-┌─────────────────┐
-│   📄 Upload     │
-│      ⬇         │  
-│  🔍 Analysis    │
-│      ⬇         │
-│  🤖 ML Model    │
-│      ⬇         │
-│  📊 Results     │
-│      ⬇         │
-│  📋 Report      │
-└─────────────────┘
-    ATCG → Insights
-```
-
-**🔗 LINKS**
-- [🚀 Live Demo](https://bioinfo-lab.herokuapp.com)
-- [📋 Repository](https://github.com/waji200/bioinfo-lab)
-- [📄 Research Paper](https://arxiv.org/bioinfo-ml)
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<!-- Project 5 -->
-<details>
-<summary>
-<strong>🎵 SYNTHWAVE_STUDIO</strong> — <em>Browser-Based DAW</em>
-<br>
-<sub>Web Audio API • Canvas • TypeScript • WebAssembly</sub>
-</summary>
-
-<br>
-
-<table>
-<tr>
-<td width="60%">
-
-**🎯 CONCEPT**
-Full-featured digital audio workstation built entirely in the browser with vintage synthwave aesthetics.
-
-**⚡ FEATURES**
-- Multi-track audio editing and mixing
-- Built-in synthesizers and drum machines
-- Real-time effects processing with Web Audio API
-- MIDI controller support and piano roll editor
-- Cloud save and project sharing
-- Offline mode with Service Worker
-
-**🛠️ ARCHITECTURE**
-- Web Audio API for low-latency audio processing
-- Canvas for custom waveform visualizations
-- WebAssembly modules for DSP algorithms
-- IndexedDB for local project storage
-
-</td>
-<td width="40%" align="center">
-
-```
-  🎵 AUDIO PIPELINE
-┌─────────────────┐
-│ 🎹 Synthesizers │
-│ 🥁 Drum Machine │
-│ 🎤 Audio Input  │
-└────────┬────────┘
-         │
-    ┌────▼────┐
-    │ 🔧 FX   │
-    │ 🎚️ Mix  │
-    └────┬────┘
-         │
-    ┌────▼────┐
-    │ 🔊 Out  │
-    └─────────┘
-```
-
-**🔗 LINKS**
-- [🚀 Launch Studio](https://synthwave-studio.netlify.app)
-- [📋 Repository](https://github.com/waji200/synthwave-studio)
-- [🎧 Sample Tracks](https://soundcloud.com/synthwave-studio)
-
-</td>
-</tr>
-</table>
-
-</details>
-
-<!-- Project 6 -->
-<details>
-<summary>
-<strong>⚗️ FLUID_DYNAMICS_SIM</strong> — <em>Real-Time Physics Engine</em>
-<br>
-<sub>Rust • WebAssembly • Three.js • WebGL Compute Shaders</sub>
-</summary>
-
-<br>
-
-<table>
-<tr>
-<td width="60%">
-
-**🎯 CONCEPT**
-High-performance fluid simulation engine running in the browser with realistic physics and beautiful visualizations.
-
-**⚡ FEATURES**
-- Real-time Navier-Stokes fluid simulation
-- GPU-accelerated particle systems  
-- Interactive parameters for viscosity, turbulence
-- Multiple fluid types (water, smoke, fire)
-- VR support for immersive interaction
-- Recording and playback capabilities
-
-**🛠️ ARCHITECTURE**
-- Rust core compiled to WebAssembly
-- WebGL compute shaders for parallel processing
-- Three.js renderer with custom materials
-- Worker threads for non-blocking computation
-
-</td>
-<td width="40%" align="center">
-
-```
-   ⚗️ PHYSICS ENGINE
-┌─────────────────┐
-│  🦀 Rust Core   │
-├─────────────────┤
-│ WebAssembly ⚡  │
-├─────────────────┤
-│ GPU Compute 🔥  │
-├─────────────────┤
-│ Three.js 🎨     │
-└─────────────────┘
-    60fps fluids
-```
-
-**🔗 LINKS**
-- [🚀 Run Simulation](https://fluid-sim.vercel.app)
-- [📋 Repository](https://github.com/waji200/fluid-dynamics)
-- [📐 Technical Blog](https://blog.devignity.com/fluid-sim)
-
-</td>
-</tr>
-</table>
-
-</details>
+${generateAllProjectsTable(allProjects)}
 
 ---
 
 <div align="center">
 
-## `📈 PERFORMANCE_METRICS`
+## \`📈 PERFORMANCE_METRICS\`
 
 </div>
 
@@ -497,99 +403,28 @@ High-performance fluid simulation engine running in the browser with realistic p
 
 </div>
 
-```mermaid
-graph TD
-    A[User Request] --> B{Route Handler}
-    B --> C[SSG Pages]
-    B --> D[ISR Pages] 
-    B --> E[API Routes]
-    C --> F[CDN Cache]
-    D --> G[Background Revalidation]
-    E --> H[Database Query]
-    F --> I[Lightning Fast ⚡]
-    G --> I
-    H --> I
-```
-
 ---
 
 <div align="center">
 
-## `🎨 DESIGN_PHILOSOPHY`
-
-</div>
-
-<table align="center">
-<tr>
-<td width="25%" align="center">
-
-**🎯 USER-FIRST**
-```
-Every pixel serves
-a purpose. Every 
-interaction tells
-a story.
-```
-
-</td>
-<td width="25%" align="center">
-
-**⚡ PERFORMANCE**
-```
-Fast by default.
-Optimized for speed,
-built for scale.
-```
-
-</td>
-<td width="25%" align="center">
-
-**♿ ACCESSIBLE**
-```
-Inclusive design.
-Everyone deserves
-great experiences.
-```
-
-</td>
-<td width="25%" align="center">
-
-**🧪 INNOVATIVE**
-```
-Pushing boundaries
-with cutting-edge
-technology.
-```
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## `📊 GITHUB_ANALYTICS`
+## \`📊 GITHUB_ANALYTICS\`
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=waji200&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waji200&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
 
 <img src="https://streak-stats.demolab.com/?user=waji200&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=waji200&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
-
 </div>
 
 ---
 
 <div align="center">
 
-## `🌐 CONNECT_WITH_ME`
+## \`🌐 CONNECT_WITH_ME\`
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white)](https://devignity.com/portfolio)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wajahat-baig-2b4b2212a/)
 [![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:workwithdevignity@gmail.com)
-[![Twitter](https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/wajahat_baig)
 
 </div>
 
@@ -597,7 +432,7 @@ technology.
 
 <div align="center">
 
-```ascii
+\`\`\`ascii
 ╭─────────────────────────────────────────────────────────────────╮
 │                                                                 │
 │  "The best way to predict the future is to create it."         │
@@ -609,10 +444,161 @@ technology.
 │     interact with the web                                       │
 │                                                                 │
 ╰─────────────────────────────────────────────────────────────────╯
-```
+\`\`\`
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 **⭐ Star my repos if you find them interesting!**
 
-</div>
+</div>`;
+        }
+
+        function generateProjectsMarkdown(projects) {
+            return projects.map(project => {
+                const techBadges = project.technologies.map(tech => `\`${tech}\``).join(' • ');
+                const emoji = getCategoryEmoji(project.category);
+                
+                return `<!-- ${project.title} -->
+<details>
+<summary>
+<strong>${emoji} ${project.title.toUpperCase().replace(/ /g, '_')}</strong> — <em>${project.description}</em>
+<br>
+<sub>${techBadges}</sub>
+</summary>
+
+<br>
+
+<table>
+<tr>
+<td width="60%">
+
+**🎯 CONCEPT**
+${project.content}
+
+**⚡ CHALLENGE**
+${project.challenge || 'Creating an innovative solution that pushes technical boundaries.'}
+
+**🛠️ SOLUTION**
+${project.solution || 'Implemented cutting-edge technologies with optimized architecture.'}
+
+**📊 RESULTS**
+${project.results || 'Successfully delivered a high-performance, scalable solution.'}
+
+**🔧 TECHNOLOGIES**
+${project.technologies.map(tech => `- ${tech}`).join('\n')}
+
+</td>
+<td width="40%" align="center">
+
+\`\`\`
+${generateProjectDiagram(project)}
+\`\`\`
+
+**📅 TIMELINE**
+- Created: ${formatDate(project.createdAt)}
+- Updated: ${formatDate(project.updatedAt)}
+- Category: ${project.category}
+
+**🔗 LINKS**
+- [🚀 Live Demo](${project.link})
+- [📋 Repository](${project.link})
+
+</td>
+</tr>
+</table>
+
+</details>
+
+`;
+            }).join('');
+        }
+
+        function generateAllProjectsTable(projects) {
+            return `<table align="center" width="100%">
+<tr>
+<th width="30%">🎯 Project</th>
+<th width="40%">📝 Description</th>
+<th width="20%">🛠️ Tech Stack</th>
+<th width="10%">🔗 Links</th>
+</tr>
+${projects.map(project => `<tr>
+<td><strong>${project.title}</strong><br><small>${project.category}</small></td>
+<td>${project.description}</td>
+<td>${project.technologies.slice(0, 3).map(tech => `<code>${tech}</code>`).join('<br>')}</td>
+<td><a href="${project.link}">🔗 View</a></td>
+</tr>`).join('')}
+</table>`;
+        }
+
+        function getCategoryEmoji(category) {
+            const emojiMap = {
+                '3D Modeling & Rendering': '🧊',
+                'Web Development & AI': '🧠',
+                'Full-Stack Development': '🛸',
+                'Mobile Development': '📱',
+                'Game Development': '🎮',
+                'Data Science': '📊',
+                'DevOps': '⚙️'
+            };
+            return emojiMap[category] || '💎';
+        }
+
+        function generateProjectDiagram(project) {
+            const diagrams = [
+                `    ${getCategoryEmoji(project.category)} ${project.category.toUpperCase()}
+┌─────────────────┐
+│   📋 Planning   │
+│       ⬇        │  
+│  🔨 Building    │
+│       ⬇        │
+│  🧪 Testing     │
+│       ⬇        │
+│  🚀 Deploy      │
+└─────────────────┘`,
+                `  🎯 ARCHITECTURE
+┌───────────────┐
+│  Frontend 🎨  │
+├───────────────┤
+│  Backend ⚙️   │
+├───────────────┤
+│  Database 💾  │
+├───────────────┤
+│  Deploy 🚀    │
+└───────────────┘`,
+                `   ${getCategoryEmoji(project.category)} WORKFLOW
+Frontend ◄──► Backend
+    │             │
+    ▼             ▼
+Database ◄──► Cache
+    │             │
+    ▼             ▼
+  Users ◄──► Analytics`
+            ];
+            return diagrams[Math.floor(Math.random() * diagrams.length)];
+        }
+
+        function formatDate(dateString) {
+            return new Date(dateString).toLocaleDateString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric' 
+            });
+        }
+
+        function copyToClipboard() {
+            const output = document.getElementById('output').textContent;
+            if (output && output !== 'Generated README will appear here...') {
+                navigator.clipboard.writeText(output).then(() => {
+                    const btn = document.querySelector('.copy-btn');
+                    btn.textContent = '✅ Copied!';
+                    setTimeout(() => {
+                        btn.textContent = '📄 Copy to Clipboard';
+                    }, 2000);
+                });
+            } else {
+                alert('Please generate a README first!');
+            }
+        }
+    </script>
+</body>
+</html>
