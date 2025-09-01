@@ -153,23 +153,7 @@
     "link": "https://pulse.cabbodge.xyz/",    
     "featured": false,
     "slug": "pulse-tournament-platform",
-    "content": "
-  **Pulse** is a highly interactive **mock trading tournament platform** designed to host **weekly competitions** in a visually rich and performance-optimized environment. The platform was built entirely by the team at **Devignity**, from UI/UX design to production deployment.
-  
-  The goal was to create a fast, intuitive, and gamified experience that motivates users to participate in recurring trading challenges. The design process started in **Figma**, with special attention paid to user flow, real-time leaderboard visibility, and competitive engagement.
-  
-  On the development side, we used **Next.js** with **TypeScript** and **Tailwind CSS**, alongside **Shadcn UI** for consistent design components. A major visual highlight of the platform is a **3D trophy model** rendered using **Three.js** and **React Three Fiber**, serving as a visual reward symbol on the results page. Some card components also featured **hover tilt effects** using **React Tilt**, adding to the interactive feel of the interface.
-  
-  We implemented a **fully responsive layout** supporting both **light and dark themes**, ensuring an elegant experience across devices and user preferences.
-  
-  The final product "delivers":
-  - A clean, gamified interface
-  - Weekly mock trading tournaments
-  - Interactive card tilts and 3D elements
-  - Smooth transitions and animations
-  - Real-time UX focus for leaderboard and user states
-  
-  The client was very satisfied with the result, especially praising the immersive UI and performance of the 3D features.",
+    "content": "**Pulse** is a highly interactive **mock trading tournament platform** designed to host **weekly competitions** in a visually rich and performance-optimized environment. The platform was built entirely by the team at **Devignity**, from UI/UX design to production deployment.\n\nThe goal was to create a fast, intuitive, and gamified experience that motivates users to participate in recurring trading challenges. The design process started in **Figma**, with special attention paid to user flow, real-time leaderboard visibility, and competitive engagement.\n\nOn the development side, we used **Next.js** with **TypeScript** and **Tailwind CSS**, alongside **Shadcn UI** for consistent design components. A major visual highlight of the platform is a **3D trophy model** rendered using **Three.js** and **React Three Fiber**, serving as a visual reward symbol on the results page. Some card components also featured **hover tilt effects** using **React Tilt**, adding to the interactive feel of the interface.\n\nWe implemented a **fully responsive layout** supporting both **light and dark themes**, ensuring an elegant experience across devices and user preferences.\n\nThe final product \"delivers\":\n- A clean, gamified interface\n- Weekly mock trading tournaments\n- Interactive card tilts and 3D elements\n- Smooth transitions and animations\n- Real-time UX focus for leaderboard and user states\n\nThe client was very satisfied with the result, especially praising the immersive UI and performance of the 3D features.",
     "gallery": [],
     "client": "Pulse",
     "duration": "8–10 weeks",
@@ -187,21 +171,7 @@
     "link": "https://www.garrettriggio.com/",
     "featured": false,
     "slug": "garrett-riggio-webflow",
-    "content": "
-  This is a fully custom Webflow-built **personal portfolio** for Garrett Riggio, created by Devignity to reflect his leadership in growth consulting and creative strategy. The build focused on smooth, scroll‑connected visuals and seamless brand storytelling.
-  
-  Key highlights "include":
-  
-  - **Scroll‑triggered animations**: Sections and counters animate into view as the user scrolls, emphasizing milestones like “15+ years”, “300+ brands”, and “60,000+ followers.”
-  - **Background video hero**: A subtle, looping video sets a cinematic tone in the hero section.
-  - **Interactive counters**: Numerical stats dynamically count up when scrolled into view.
-  - **Custom storytelling layout**: Sections like “Storyteller’s Dilemma”, “Awards”, and “Red Road Foundation” use layout shifts and reveal animations for an engaging read.
-  - **Contact form**: A working form with custom validation and cloning animations, integrated into Webflow’s CMS/Forms for backend collection.
-  - **Responsive experience**: Fully optimized for desktop, tablet, and mobile with smooth, performant animations.
-    
-  The site began with a Figma design that emphasized narrative flow and visual hierarchy. Once approved, we recreated it in Webflow using custom embed code and Webflow Interactions to deliver polished, timeline‑based animations and scroll‑linked effects.
-  
-  The project was delivered in under **4 weeks**. The client was pleased with the final result, noting the engaging scroll animations, strong visual storytelling, and professional branding.",
+    "content": "This is a fully custom Webflow-built **personal portfolio** for Garrett Riggio, created by Devignity to reflect his leadership in growth consulting and creative strategy. The build focused on smooth, scroll-connected visuals and seamless brand storytelling.\n\nKey highlights \"include\":\n\n- **Scroll-triggered animations**: Sections and counters animate into view as the user scrolls, emphasizing milestones like “15+ years”, “300+ brands”, and “60,000+ followers.”\n- **Background video hero**: A subtle, looping video sets a cinematic tone in the hero section.\n- **Interactive counters**: Numerical stats dynamically count up when scrolled into view.\n- **Custom storytelling layout**: Sections like “Storyteller’s Dilemma”, “Awards”, and “Red Road Foundation” use layout shifts and reveal animations for an engaging read.\n- **Contact form**: A working form with custom validation and cloning animations, integrated into Webflow’s CMS/Forms for backend collection.\n- **Responsive experience**: Fully optimized for desktop, tablet, and mobile with smooth, performant animations.\n\nThe site began with a Figma design that emphasized narrative flow and visual hierarchy. Once approved, we recreated it in Webflow using custom embed code and Webflow Interactions to deliver polished, timeline-based animations and scroll-linked effects.\n\nThe project was delivered in under **4 weeks**. The client was pleased with the final result, noting the engaging scroll animations, strong visual storytelling, and professional branding.",
     "gallery": [
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-1.png",
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-2.png",
@@ -238,25 +208,7 @@
     "link": "https://warehouse-lowpoly.vercel.app/",
     "featured": false,
     "slug": "warehouse-lowpoly-visualization",
-    "content": "
-  This project was crafted by **Devignity** for **Cardinal Storage**, a leading self-storage brand in the United States ([cardinalstorage.com](https://www.cardinalstorage.com)). The goal was to deliver a visually engaging and easily embeddable 3D representation of their warehouse that could be plugged directly into their marketing website.
-  
-  The entire warehouse environment was **designed and modeled in Blender**, using a clean low-poly art style. Textures were UV mapped and exported in optimized **GLB** format for seamless web performance.
-  
-  Using **React Three Fiber**, **Three.js**, and **Drei**, we developed a fully interactive frontend that enables users to **search for any storage unit**. When a unit is searched, a **car animation plays**, guiding the camera through the warehouse and smoothly zooming into the target unit — offering a cinematic and intuitive navigation experience.
-  
-  Key "Features":
-  - Complete 3D modeling and UV mapping in **Blender**
-  - **Search-driven camera animation** with custom car movement
-  - Built with **React Three Fiber**, **Next.js**, and **Tailwind CSS**
-  - **Lightweight, embeddable frontend** deployable into any website
-  - Optimized for performance, responsiveness, and smooth animation
-  - Fully mobile-friendly and cross-browser compatible
-  
-  After successfully integrating this visualization into the client’s website, Cardinal Storage was highly impressed. They requested a follow-up "project": designing **six unique interior storage units** of various sizes to highlight the differences between unit types. These rooms were also modeled in Blender, exported, and integrated into their live site by the client.
-  
-  The project was delivered in **3 weeks**, and client feedback was overwhelmingly positive.
-    ",
+    "content": "This project was crafted by **Devignity** for **Cardinal Storage**, a leading self-storage brand in the United States ([cardinalstorage.com](https://www.cardinalstorage.com)). The goal was to deliver a visually engaging and easily embeddable 3D representation of their warehouse that could be plugged directly into their marketing website.\n\nThe entire warehouse environment was **designed and modeled in Blender**, using a clean low-poly art style. Textures were UV mapped and exported in optimized **GLB** format for seamless web performance.\n\nUsing **React Three Fiber**, **Three.js**, and **Drei**, we developed a fully interactive frontend that enables users to **search for any storage unit**. When a unit is searched, a **car animation plays**, guiding the camera through the warehouse and smoothly zooming into the target unit — offering a cinematic and intuitive navigation experience.\n\nKey \"Features\":\n- Complete 3D modeling and UV mapping in **Blender**\n- **Search-driven camera animation** with custom car movement\n- Built with **React Three Fiber**, **Next.js**, and **Tailwind CSS**\n- **Lightweight, embeddable frontend** deployable into any website\n- Optimized for performance, responsiveness, and smooth animation\n- Fully mobile-friendly and cross-browser compatible\n\nAfter successfully integrating this visualization into the client’s website, Cardinal Storage was highly impressed. They requested a follow-up \"project\": designing **six unique interior storage units** of various sizes to highlight the differences between unit types. These rooms were also modeled in Blender, exported, and integrated into their live site by the client.\n\nThe project was delivered in **3 weeks**, and client feedback was overwhelmingly positive.",
     "gallery": [
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-1.png",
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-2.png",
