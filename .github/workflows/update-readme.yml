@@ -50,5 +50,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "🤖 Auto-update README from projects.json"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/waji200/waji200.git HEAD:${{ github.ref }}
           fi
