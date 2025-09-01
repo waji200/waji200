@@ -502,6 +502,7 @@ function generateReadme() {
   }
 }
 
+
 // Run if called directly
 if (require.main === module) {
   generateReadme();
