@@ -1,13 +1,13 @@
 [
   {
-    title: "Abou Arab Haider Website",
-    description: "A bilingual, heritage-rich e-commerce website for a historic Syrian sweets brand, custom-built to reflect their legacy and serve a global audience.",
-    id: "abou-arab-haider-ecommerce",
-    createdAt: "2025-04-01",
-    updatedAt: "2025-06-03",
-    category: "E-commerce Development",
-    image: "/projects/abouArabHaider/abou-arab-haider-ecommerce-website-design-damascene-sweets-brand-bilingual-store-nextjs-tailwind-devignity.png",
-    technologies: [
+    "title": "Abou Arab Haider Website",
+    "description": "A bilingual, heritage-rich e-commerce website for a historic Syrian sweets brand, custom-built to reflect their legacy and serve a global audience.",
+    "id": "abou-arab-haider-ecommerce",
+    "createdAt": "2025-04-01",
+    "updatedAt": "2025-06-03",
+    "category": "E-commerce Development",
+    "image": "/projects/abouArabHaider/abou-arab-haider-ecommerce-website-design-damascene-sweets-brand-bilingual-store-nextjs-tailwind-devignity.png",
+    "technologies": [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
@@ -19,11 +19,11 @@
       "Coolify",
       "next-intl"
     ],
-    link: "https://abouarabhaider.com",
-    featured: true,
-    slug: "abou-arab-haider-ecommerce",
-    content: "We helped Abou Arab Haider — a 135-year-old sweets brand — bring their legacy online with a modern, custom-built B2C e-commerce platform. The goal was to reflect their long-standing Damascene heritage while offering a seamless online store experience in both Arabic and English. Using a tailored stack and animation-heavy design, we delivered a performance-optimized and culturally rich digital storefront.",
-    gallery: [
+    "link": "https://abouarabhaider.com",
+    "featured": true,
+    "slug": "abou-arab-haider-ecommerce",
+    "content": "We helped Abou Arab Haider — a 135-year-old sweets brand — bring their legacy online with a modern, custom-built B2C e-commerce platform. The goal was to reflect their long-standing Damascene heritage while offering a seamless online store experience in both Arabic and English. Using a tailored stack and animation-heavy design, we delivered a performance-optimized and culturally rich digital storefront.",
+    "gallery": [
       "/projects/abouArabHaider/abou-arab-haider-ecommerce-website-design-damascene-sweets-brand-bilingual-store-nextjs-tailwind-devignity-1.png",
       "/projects/abouArabHaider/abou-arab-haider-ecommerce-website-design-damascene-sweets-brand-bilingual-store-nextjs-tailwind-devignity-2.png",
       "/projects/abouArabHaider/abou-arab-haider-ecommerce-website-design-damascene-sweets-brand-bilingual-store-nextjs-tailwind-devignity-3.png",
@@ -31,25 +31,24 @@
       "/projects/abouArabHaider/abou-arab-haider-ecommerce-website-design-damascene-sweets-brand-bilingual-store-nextjs-tailwind-devignity-5.png"
       
     ],
-    client: "Abou Arab Haider",
-    duration: "9 weeks",
-    challenge:
+    "client": "Abou Arab Haider",
+    "duration": "9 weeks",
+    "challenge":
       "The client needed a clean, minimal, and elegant UI that could showcase their century-old story in both Arabic and English. We were tasked with implementing a scroll-based animated line that tracks user progress through the site — requiring an SVG path to be designed in Figma and animated in code. Managing bi-directional layout support for Arabic (RTL) and English (LTR), along with integrating a lesser-known backend (MedusaJS), posed unique development challenges.",
-    solution:
+    "solution":
       "We designed the entire website in Figma, building a highly polished and minimal UI. On the frontend, we used Next.js with TypeScript, Tailwind CSS, and the shadcn/ui library to ensure rapid development. Supabase was used for form submissions, and we implemented a custom internationalization setup with next-intl. The backend was powered by MedusaJS, integrated with plugins for e-commerce functionality. Hosting was handled through Dockerized deployment on Coolify, ensuring smooth CI/CD workflows. Custom scroll-line animation was implemented by converting SVG paths from Figma and dynamically controlling stroke progress with JS.",
-    results:
+    "results":
       "The client was extremely pleased with the final result and praised the visual storytelling and smooth bilingual experience. The website successfully showcases their heritage while functioning as a full-fledged e-commerce platform. Performance benchmarks were met, and the custom animations helped differentiate their digital presence in a highly competitive industry.",
   },
-  
   {
-    title: "EveryRep Interactive 3D E-commerce Experience",
-    description: "A fully immersive 3D web experience for a sportswear brand, featuring real-time shaders, infinite scroll interactions, and split-screen product browsing.",
-    id: "everyrep-3d-ecommerce-experience",
-    createdAt: "2025-02-01",
-    updatedAt: "2025-04-20",
-    category: "3D Web Development",
-    image: "/projects/everyrep/everyrep-interactive-3d-sportswear-ecommerce-website-react-three-fiber-glsl-shaders-devignity-4.png",
-    technologies: [
+    "title": "EveryRep Interactive 3D E-commerce Experience",
+    "description": "A fully immersive 3D web experience for a sportswear brand, featuring real-time shaders, infinite scroll interactions, and split-screen product browsing.",
+    "id": "everyrep-3d-ecommerce-experience",
+    "createdAt": "2025-02-01",
+    "updatedAt": "2025-04-20",
+    "category": "3D Web Development",
+    "image": "/projects/everyrep/everyrep-interactive-3d-sportswear-ecommerce-website-react-three-fiber-glsl-shaders-devignity-4.png",
+    "technologies": [
       "React",
       "Next.js",
       "React Three Fiber",
@@ -58,38 +57,38 @@
       "Tailwind CSS",
       "Figma"
     ],
-    link: "https://everyrep.com", // replace if different
-    featured: true,
-    slug: "everyrep-3d-ecommerce",
-    content: "EveryRep, a modern sportswear brand, approached me to create an immersive, interactive 3D website experience that pushes creative and technical boundaries. The goal was to break away from traditional storefronts and let the website become an expressive visual medium. I started with Figma for UX/UI layout and then moved into heavy 3D development using React Three Fiber and GLSL shaders. From an animated logo reveal to an infinite cloth surface with interactive scroll-based camera transitions, this site redefined how users experience product discovery.",
-    gallery: [
+    "link": "https://everyrep.com", // replace if different
+    "featured": true,
+    "slug": "everyrep-3d-ecommerce",
+    "content": "EveryRep, a modern sportswear brand, approached me to create an immersive, interactive 3D website experience that pushes creative and technical boundaries. The goal was to break away from traditional storefronts and let the website become an expressive visual medium. I started with Figma for UX/UI layout and then moved into heavy 3D development using React Three Fiber and GLSL shaders. From an animated logo reveal to an infinite cloth surface with interactive scroll-based camera transitions, this site redefined how users experience product discovery.",
+    "gallery": [
       "/projects/everyrep/everyrep-interactive-3d-sportswear-ecommerce-website-react-three-fiber-glsl-shaders-devignity-1.png",
       "/projects/everyrep/everyrep-interactive-3d-sportswear-ecommerce-website-react-three-fiber-glsl-shaders-devignity-2.png",
       "/projects/everyrep/everyrep-interactive-3d-sportswear-ecommerce-website-react-three-fiber-glsl-shaders-devignity-3.png"
     ],
-    client: "EveryRep",
-    duration: "12 weeks",
-    challenge:
+    "client": "EveryRep",
+    "duration": "12 weeks",
+    "challenge":
       "The biggest challenges were technical — writing raw GLSL shaders for the cloth distortion, camera transitions, and color dispersion effects. Making all the animations performant, responsive, and cross-device-compatible while retaining high fidelity was demanding. Coordinating the 3D interactions with traditional UI components added another layer of complexity.",
-    solution:
+    "solution":
       "Using React Three Fiber and React Three Drei, I built a 3D canvas-driven website with dynamic scene transitions. I animated the EveryRep logo using custom GLSL shaders, simulating it breaking into pieces and reforming in 3D. After the intro, the user is immersed into an infinite, scroll-reactive cloth surface with pin-pointed interactive labels. The split-screen shader slider enables toggling between men’s and women’s product categories by dragging across the screen. Scroll direction manipulates camera zoom, and final transitions trigger dispersion and blur effects to emphasize immersion.",
-    results:
+    "results":
       "Despite the complexity, the result was a uniquely immersive brand experience that elevated EveryRep’s digital identity. The client was thrilled with how the interactivity aligned with their bold branding. Site engagement metrics showed higher user retention and scroll depth compared to their previous design.",
   },  
     {
-    title: "FBA Gorillas Interactive 3D Experience",
-    description: "A Donkey Kong-inspired interactive 3D website designed to visually guide users through an Amazon FBA course with animated models and a jungle-themed path.",
-    id: "fbagorillas-interactive",
-    createdAt: "2025-05-01",
-    updatedAt: "2025-06-15",
-    category: "3D Web Development",
-    image: "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber.png",
-    technologies: ["React", "Next.js", "React Three Fiber", "Blender", "Tailwind CSS", "TypeScript", "GLTF", "Draco Compression"],
-    link: "https://fba-three-js.vercel.app/",
-    featured: true,
-    slug: "fbagorillas-3d-course",
-    content: "FBA Gorillas is a uniquely gamified learning platform built for aspiring Amazon FBA entrepreneurs. Inspired by the nostalgic aesthetics of Donkey Kong, the client wanted an interactive 3D experience that would guide users step-by-step through their course offering. The centerpiece of the site is a custom-modeled gorilla navigating a jungle path filled with gems that represent different stages of the course.",
-    gallery: [
+    "title": "FBA Gorillas Interactive 3D Experience",
+    "description": "A Donkey Kong-inspired interactive 3D website designed to visually guide users through an Amazon FBA course with animated models and a jungle-themed path.",
+    "id": "fbagorillas-interactive",
+    "createdAt": "2025-05-01",
+    "updatedAt": "2025-06-15",
+    "category": "3D Web Development",
+    "image": "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber.png",
+    "technologies": ["React", "Next.js", "React Three Fiber", "Blender", "Tailwind CSS", "TypeScript", "GLTF", "Draco Compression"],
+    "link": "https://fba-three-js.vercel.app/",
+    "featured": true,
+    "slug": "fbagorillas-3d-course",
+    "content": "FBA Gorillas is a uniquely gamified learning platform built for aspiring Amazon FBA entrepreneurs. Inspired by the nostalgic aesthetics of Donkey Kong, the client wanted an interactive 3D experience that would guide users step-by-step through their course offering. The centerpiece of the site is a custom-modeled gorilla navigating a jungle path filled with gems that represent different stages of the course.",
+    "gallery": [
       "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber_devignity_1.png",
       "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber_devignity_2.png",
       "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber_devignity_3.png",
@@ -98,24 +97,24 @@
       "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber_devignity_6.png",
       "/projects/fba-gorillas/devignity_fbagorillas_react_three_fiber_devignity_7.png"
     ],
-    client: "FBA Gorillas",
-    duration: "6 weeks",
-    challenge:
+    "client": "FBA Gorillas",
+    "duration": "6 weeks",
+    "challenge":
       "The biggest challenge was to maintain a realistic aesthetic with low-poly performance. The jungle scene, gorilla model, animations, and path-following system had to be lightweight enough for web performance, while still delivering high visual impact. Managing texture sizes, maintaining animation quality, and handling complex TypeScript typings also added to the complexity.",
-    solution:
+    "solution":
       "I modeled a custom gorilla and a stylized jungle environment in Blender, using realistic PBR textures and carefully optimized mesh topology. Animations were baked, exported as GLB files, and compressed using Draco and gltfjsx for maximum performance. The gorilla was rigged to follow a 3D path synced with user interaction. React Three Fiber handled the rendering, while the UI and navigation were custom-built with Tailwind CSS and TypeScript to ensure responsiveness and maintainability.",
-    results:
+    "results":
       "The project delivered a highly immersive and interactive user journey. The gamified experience successfully increased course engagement and retention. Page load performance was optimized with a 60% reduction in model size, and the website received positive feedback for both its creativity and technical quality. The client was thrilled with the final product and launched it as the flagship for their FBA course.",
   },
   {
-    title: "Solatrix",
-    description: "A full-stack mock trading tournament platform powered by the Solana blockchain. Devignity handled everything from Figma design to development using Next.js, TypeScript, Tailwind CSS, Shadcn UI, and React Three Fiber for an interactive 3D hero section.",
-    id: "solatrix-mock-trading",
-    createdAt: "2025-02-01", // Adjust if needed
-    updatedAt: "2025-04-20", // Adjust if needed
-    category: "Web App Development",
-    image: "/projects/solatrix/solatrix-mock-trading-platform-nextjs-typescript-blockchain-solana.png", // Placeholder image
-    technologies: [
+    "title": "Solatrix",
+    "description": "A full-stack mock trading tournament platform powered by the Solana blockchain. Devignity handled everything from Figma design to development using Next.js, TypeScript, Tailwind CSS, Shadcn UI, and React Three Fiber for an interactive 3D hero section.",
+    "id": "solatrix-mock-trading",
+    "createdAt": "2025-02-01", // Adjust if needed
+    "updatedAt": "2025-04-20", // Adjust if needed
+    "category": "Web App Development",
+    "image": "/projects/solatrix/solatrix-mock-trading-platform-nextjs-typescript-blockchain-solana.png", // Placeholder image
+    "technologies": [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
@@ -126,27 +125,27 @@
       "Drei",
       "React Three Stdlib"
     ],
-    link: "https://solatrix.vercel.app/", // Add live link if available
-    featured: false,
-    slug: "solatrix-mock-trading",
-    content: "Solatrix is a cutting-edge **mock trading tournament platform** powered by the **Solana blockchain**, developed entirely by **Devignity** — from initial Figma designs to production-ready deployment. The platform simulates real-time trading competitions with blockchain-backed transparency, intuitive user experience, and interactive visual design.\n\nWe began by crafting the complete UI/UX flow in **Figma**, mapping out all user journeys including onboarding, wallet authentication, tournament participation, live leaderboards, and result screens. Once approved by the client, the design was brought to life using **Next.js** with **TypeScript**, styled using **Tailwind CSS**, and enhanced with modular components via **Shadcn UI**.\n\nTo deliver an immersive first impression, we built an animated 3D **hero section** using **React Three Fiber**, **@react-three/drei**, and **@react-three/stdlib**. This included an infinite zooming **starfield effect** with orbital motion **reactive to the user's mouse cursor**, which provided a futuristic, space-themed aesthetic aligned with the platform’s brand identity.\n\nOn the blockchain side, Solatrix connects to the **Solana network** for secure wallet interactions and mock trading mechanics. Though real assets are not traded, the platform mimics authentic Solana workflows to train and engage users in a competitive environment.\n\nKey features included:\n- Interactive 3D hero animation with stars and orbiting motion\n- Wallet authentication (Solana-based)\n- Joinable mock trading tournaments\n- Real-time leaderboard integration\n- Fully responsive design across devices\n- Full client-side state managed using MobX\n\nThe project was completed in under **12 weeks**, with a strong focus on performance, visual appeal, and modularity. The client was thrilled with the results — especially the animated landing experience and overall design quality.",
-    gallery: [],
-    client: "Solatrix",
-    duration: "Under 12 weeks",
-    challenge: "Designing and building a feature-rich, visually interactive mock trading platform with Solana blockchain integration and a 3D hero experience.",
-    solution: "Used Figma for UI design, then developed the frontend with Next.js, TypeScript, Tailwind, and Shadcn. Built a dynamic 3D hero using React Three Fiber, Drei, and Stdlib. Integrated Solana wallet and tournament logic with MobX-based state management.",
-    results: "Successfully delivered a responsive, blockchain-integrated platform with immersive visuals. Client praised both the technical execution and 3D animation quality.",
-    video: null,
+    "link": "https://solatrix.vercel.app/", // Add live link if available
+    "featured": false,
+    "slug": "solatrix-mock-trading",
+    "content": "Solatrix is a cutting-edge **mock trading tournament platform** powered by the **Solana blockchain**, developed entirely by **Devignity** — from initial Figma designs to production-ready deployment. The platform simulates real-time trading competitions with blockchain-backed transparency, intuitive user experience, and interactive visual design.\n\nWe began by crafting the complete UI/UX flow in **Figma**, mapping out all user journeys including onboarding, wallet authentication, tournament participation, live leaderboards, and result screens. Once approved by the client, the design was brought to life using **Next.js** with **TypeScript**, styled using **Tailwind CSS**, and enhanced with modular components via **Shadcn UI**.\n\nTo deliver an immersive first impression, we built an animated 3D **hero section** using **React Three Fiber**, **@react-three/drei**, and **@react-three/stdlib**. This included an infinite zooming **starfield effect** with orbital motion **reactive to the user's mouse cursor**, which provided a futuristic, space-themed aesthetic aligned with the platform’s brand identity.\n\nOn the blockchain side, Solatrix connects to the **Solana network** for secure wallet interactions and mock trading mechanics. Though real assets are not traded, the platform mimics authentic Solana workflows to train and engage users in a competitive environment.\n\nKey features "included":\n- Interactive 3D hero animation with stars and orbiting motion\n- Wallet authentication (Solana-based)\n- Joinable mock trading tournaments\n- Real-time leaderboard integration\n- Fully responsive design across devices\n- Full client-side state managed using MobX\n\nThe project was completed in under **12 weeks**, with a strong focus on performance, visual appeal, and modularity. The client was thrilled with the results — especially the animated landing experience and overall design quality.",
+    "gallery": [],
+    "client": "Solatrix",
+    "duration": "Under 12 weeks",
+    "challenge": "Designing and building a feature-rich, visually interactive mock trading platform with Solana blockchain integration and a 3D hero experience.",
+    "solution": "Used Figma for UI design, then developed the frontend with Next.js, TypeScript, Tailwind, and Shadcn. Built a dynamic 3D hero using React Three Fiber, Drei, and Stdlib. Integrated Solana wallet and tournament logic with MobX-based state management.",
+    "results": "Successfully delivered a responsive, blockchain-integrated platform with immersive visuals. Client praised both the technical execution and 3D animation quality.",
+    "video": null,
   },
   {
-    title: "Pulse",
-    description: "A dynamic mock trading tournament platform featuring weekly competitions, 3D visuals, and immersive UI. Designed and developed using modern web technologies including Next.js, TypeScript, and Three.js.",
-    id: "pulse-tournament-platform",
-    createdAt: "2025-04-01", // Adjust if needed
-    updatedAt: "2025-06-25", // Adjust if needed
-    category: "Web App Development",
-    image: "/projects/pulse/pulse-mock-trading-platform-nextjs-typescript-blockchain-solana.png", // Replace with actual image
-    technologies: [
+    "title": "Pulse",
+    "description": "A dynamic mock trading tournament platform featuring weekly competitions, 3D visuals, and immersive UI. Designed and developed using modern web technologies including Next.js, TypeScript, and Three.js.",
+    "id": "pulse-tournament-platform",
+    "createdAt": "2025-04-01", // Adjust if needed
+    "updatedAt": "2025-06-25", // Adjust if needed
+    "category": "Web App Development",
+    "image": "/projects/pulse/pulse-mock-trading-platform-nextjs-typescript-blockchain-solana.png", // Replace with actual image
+    "technologies": [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
@@ -156,10 +155,10 @@
       "React Tilt",
       "Figma"
     ],
-    link: "https://pulse.cabbodge.xyz/", // Add live link if available
-    featured: false,
-    slug: "pulse-tournament-platform",
-    content: `
+    "link": "https://pulse.cabbodge.xyz/", // Add live link if available
+    "featured": false,
+    "slug": "pulse-tournament-platform",
+    "content": `
   **Pulse** is a highly interactive **mock trading tournament platform** designed to host **weekly competitions** in a visually rich and performance-optimized environment. The platform was built entirely by the team at **Devignity**, from UI/UX design to production deployment.
   
   The goal was to create a fast, intuitive, and gamified experience that motivates users to participate in recurring trading challenges. The design process started in **Figma**, with special attention paid to user flow, real-time leaderboard visibility, and competitive engagement.
@@ -168,7 +167,7 @@
   
   We implemented a **fully responsive layout** supporting both **light and dark themes**, ensuring an elegant experience across devices and user preferences.
   
-  The final product delivers:
+  The final product "delivers":
   - A clean, gamified interface
   - Weekly mock trading tournaments
   - Interactive card tilts and 3D elements
@@ -176,30 +175,30 @@
   - Real-time UX focus for leaderboard and user states
   
   The client was very satisfied with the result, especially praising the immersive UI and performance of the 3D features.`,
-    gallery: [],
-    client: "Pulse",
-    duration: "8–10 weeks",
-    challenge: "Creating a responsive, visually immersive platform for weekly trading tournaments with real-time feedback and animated 3D elements.",
-    solution: "Designed the UI in Figma, implemented the frontend with Next.js, Tailwind, and Shadcn, and used Three.js for rendering interactive 3D trophy models. Added React Tilt for card interactions and supported full light/dark mode theming.",
-    results: "Successfully launched a high-performance, gamified platform that encourages weekly user engagement through smooth animations and striking visuals.",
-    video: null,
+    "gallery": [],
+    "client": "Pulse",
+    "duration": "8–10 weeks",
+    "challenge": "Creating a responsive, visually immersive platform for weekly trading tournaments with real-time feedback and animated 3D elements.",
+    "solution": "Designed the UI in Figma, implemented the frontend with Next.js, Tailwind, and Shadcn, and used Three.js for rendering interactive 3D trophy models. Added React Tilt for card interactions and supported full light/dark mode theming.",
+    "results": "Successfully launched a high-performance, gamified platform that encourages weekly user engagement through smooth animations and striking visuals.",
+    "video": null,
   },  
   {
-    title: "Garrett Riggio (Webflow Showcase)",
-    description: "A polished personal portfolio website built with Webflow, featuring custom scroll‑triggered animations, background videos, and interactive counters to showcase professional achievements and storytelling.",
-    id: "garrett-riggio-webflow",
-    createdAt: "2025-06-10", // Adjust as needed
-    updatedAt: "2025-06-20", // Adjust as needed
-    category: "Webflow Development",
-    image: "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated.png", // Replace with actual screenshot
-    technologies: ["Webflow", "Custom JavaScript", "Lottie/Scroll Animations", "Background Video", "Figma"],
-    link: "https://www.garrettriggio.com/",
-    featured: false,
-    slug: "garrett-riggio-webflow",
-    content: `
+    "title": "Garrett Riggio (Webflow Showcase)",
+    "description": "A polished personal portfolio website built with Webflow, featuring custom scroll‑triggered animations, background videos, and interactive counters to showcase professional achievements and storytelling.",
+    "id": "garrett-riggio-webflow",
+    "createdAt": "2025-06-10", // Adjust as needed
+    "updatedAt": "2025-06-20", // Adjust as needed
+    "category": "Webflow Development",
+    "image": "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated.png", // Replace with actual screenshot
+    "technologies": ["Webflow", "Custom JavaScript", "Lottie/Scroll Animations", "Background Video", "Figma"],
+    "link": "https://www.garrettriggio.com/",
+    "featured": false,
+    "slug": "garrett-riggio-webflow",
+    "content": `
   This is a fully custom Webflow-built **personal portfolio** for Garrett Riggio, created by Devignity to reflect his leadership in growth consulting and creative strategy. The build focused on smooth, scroll‑connected visuals and seamless brand storytelling.
   
-  Key highlights include:
+  Key highlights "include":
   
   - **Scroll‑triggered animations**: Sections and counters animate into view as the user scrolls, emphasizing milestones like “15+ years”, “300+ brands”, and “60,000+ followers.”
   - **Background video hero**: A subtle, looping video sets a cinematic tone in the hero section.
@@ -211,7 +210,7 @@
   The site began with a Figma design that emphasized narrative flow and visual hierarchy. Once approved, we recreated it in Webflow using custom embed code and Webflow Interactions to deliver polished, timeline‑based animations and scroll‑linked effects.
   
   The project was delivered in under **4 weeks**. The client was pleased with the final result, noting the engaging scroll animations, strong visual storytelling, and professional branding.`,
-    gallery: [
+    "gallery": [
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-1.png",
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-2.png",
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-3.png",
@@ -219,22 +218,22 @@
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-5.png",
       "/projects/garretRiggio/garret-riggio-webflow-website-custom-animated-6.png"
     ],
-    client: "Garrett Riggio",
-    duration: "Under 4 weeks",
-    challenge: "Translating a narrative‑focused Figma design into Webflow with dynamic scroll animations, interactive counters, and video backgrounds without sacrificing performance.",
-    solution: "Implemented custom Webflow Interactions, background video embedding, and JavaScript‑driven counter animations. Ensured responsive performance across devices and integrated Webflow forms for reliable data capture.",
-    results: "Delivered a visually immersive, storytelling‑driven portfolio site. Client praised the site’s flow, animation polish, and mobile performance.",
-    video: null,
+    "client": "Garrett Riggio",
+    "duration": "Under 4 weeks",
+    "challenge": "Translating a narrative‑focused Figma design into Webflow with dynamic scroll animations, interactive counters, and video backgrounds without sacrificing performance.",
+    "solution": "Implemented custom Webflow Interactions, background video embedding, and JavaScript‑driven counter animations. Ensured responsive performance across devices and integrated Webflow forms for reliable data capture.",
+    "results": "Delivered a visually immersive, storytelling‑driven portfolio site. Client praised the site’s flow, animation polish, and mobile performance.",
+    "video": null,
   }, 
   {
-    title: "Warehouse Low-Poly Visualization",
-    description: "A real-time 3D warehouse experience with search-driven camera navigation, built for seamless website integration. Designed and developed for Cardinal Storage using Blender, React Three Fiber, and Next.js.",
-    id: "warehouse-lowpoly-visualization",
-    createdAt: "2025-05-10",
-    updatedAt: "2025-06-15",
-    category: "3D Web Experience",
-    image: "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering.png", // Replace with actual screenshot
-    technologies: [
+    "title": "Warehouse Low-Poly Visualization",
+    "description": "A real-time 3D warehouse experience with search-driven camera navigation, built for seamless website integration. Designed and developed for Cardinal Storage using Blender, React Three Fiber, and Next.js.",
+    "id": "warehouse-lowpoly-visualization",
+    "createdAt": "2025-05-10",
+    "updatedAt": "2025-06-15",
+    "category": "3D Web Experience",
+    "image": "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering.png", // Replace with actual screenshot
+    "technologies": [
       "Blender",
       "Three.js",
       "React Three Fiber",
@@ -245,17 +244,17 @@
       "TypeScript",
       "Tailwind CSS"
     ],
-    link: "https://warehouse-lowpoly.vercel.app/",
-    featured: false,
-    slug: "warehouse-lowpoly-visualization",
-    content: `
+    "link": "https://warehouse-lowpoly.vercel.app/",
+    "featured": false,
+    "slug": "warehouse-lowpoly-visualization",
+    "content": `
   This project was crafted by **Devignity** for **Cardinal Storage**, a leading self-storage brand in the United States ([cardinalstorage.com](https://www.cardinalstorage.com)). The goal was to deliver a visually engaging and easily embeddable 3D representation of their warehouse that could be plugged directly into their marketing website.
   
   The entire warehouse environment was **designed and modeled in Blender**, using a clean low-poly art style. Textures were UV mapped and exported in optimized **GLB** format for seamless web performance.
   
   Using **React Three Fiber**, **Three.js**, and **Drei**, we developed a fully interactive frontend that enables users to **search for any storage unit**. When a unit is searched, a **car animation plays**, guiding the camera through the warehouse and smoothly zooming into the target unit — offering a cinematic and intuitive navigation experience.
   
-  Key Features:
+  Key "Features":
   - Complete 3D modeling and UV mapping in **Blender**
   - **Search-driven camera animation** with custom car movement
   - Built with **React Three Fiber**, **Next.js**, and **Tailwind CSS**
@@ -263,11 +262,11 @@
   - Optimized for performance, responsiveness, and smooth animation
   - Fully mobile-friendly and cross-browser compatible
   
-  After successfully integrating this visualization into the client’s website, Cardinal Storage was highly impressed. They requested a follow-up project: designing **six unique interior storage units** of various sizes to highlight the differences between unit types. These rooms were also modeled in Blender, exported, and integrated into their live site by the client.
+  After successfully integrating this visualization into the client’s website, Cardinal Storage was highly impressed. They requested a follow-up "project": designing **six unique interior storage units** of various sizes to highlight the differences between unit types. These rooms were also modeled in Blender, exported, and integrated into their live site by the client.
   
   The project was delivered in **3 weeks**, and client feedback was overwhelmingly positive.
     `,
-    gallery: [
+    "gallery": [
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-1.png",
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-2.png",
       "/projects/low-poly-warehouse/cardinal-storage-low-poly-warehouse-react-three-fiber-mobx-blender-3d-modeling-3d-rendering-3.png",
@@ -278,155 +277,155 @@
       "/projects/low-poly-warehouse/unit-model-5.png",
       "/projects/low-poly-warehouse/unit-model-6.png",
     ],
-    client: "Cardinal Storage",
-    duration: "3 weeks",
-    challenge: "Creating a performant and embeddable 3D warehouse scene with responsive search functionality, smooth animated camera paths, and low-poly realism.",
-    solution: "Handled full-cycle 3D design and development using Blender and React Three Fiber. Implemented GLB model import, search-triggered animations, and interactive camera behavior tailored for seamless embedding.",
-    results: "Cardinal Storage successfully launched the feature on their website and was highly impressed. This led to a second commission involving custom-designed interiors for six different unit types, which were also integrated live.",
-    video: null
+    "client": "Cardinal Storage",
+    "duration": "3 weeks",
+    "challenge": "Creating a performant and embeddable 3D warehouse scene with responsive search functionality, smooth animated camera paths, and low-poly realism.",
+    "solution": "Handled full-cycle 3D design and development using Blender and React Three Fiber. Implemented GLB model import, search-triggered animations, and interactive camera behavior tailored for seamless embedding.",
+    "results": "Cardinal Storage successfully launched the feature on their website and was highly impressed. This led to a second commission involving custom-designed interiors for six different unit types, which were also integrated live.",
+    "video": null
   },   
   {
-    title: "Arabian Innovation Company",
-    description: "A complete landing page design and development project for Arabian Innovation Company. From Figma design to React development and final deployment, Devignity delivered a polished, mobile-responsive company website showcasing their ecommerce solutions.",
-    id: "arabian-innovation-landing",
-    createdAt: "2025-06-15",
-    updatedAt: "2025-06-20",
-    category: "Web Design & Development",
-    image: "/projects/arabian-innovation/arabian-innovation-company-react-typescript-tailwind-figma-project.png", // Placeholder image
-    technologies: ["React", "TypeScript", "Tailwind CSS", "CSS", "MobX", "Figma"],
-    link: "https://arabianinnovation.com", // Add live link if available
-    featured: false,
-    slug: "arabian-innovation-landing",
-    content: "Devignity led the complete design and development of a corporate landing page for **Arabian Innovation Company**, a leading provider of ecommerce solutions specializing in platform development, fulfillment, and logistics. The goal was to create a clean, modern, and professional online presence that clearly communicated the brand’s capabilities and values.\n\nThe project began with a custom landing page layout designed in **Figma**. After the client’s approval, we transitioned into development using **React**, **TypeScript**, and **Tailwind CSS**. Custom CSS was also applied for fine-grained control over responsiveness and styling. For state management and smoother UI interactions, we integrated **MobX**, ensuring scalability and performance.\n\nA working **contact form** was built and connected with client-side handling and backend submission. The entire solution was optimized for desktop and mobile, though implementing a fully responsive layout required careful handling of design breakpoints and interactions—especially on smaller screens.\n\nOnce development was complete, the final build was deployed directly to the client’s **cPanel server**, ensuring smooth delivery to production within a short timeframe.\n\nThe entire project was completed in **under a week**, with highly positive feedback from the client regarding the design execution, responsiveness, and deployment.",
-    gallery: [],
-    client: "Arabian Innovation Company",
-    duration: "Less than 1 week",
-    challenge: "Building a clean, mobile-responsive landing page from scratch with working form and deploying on a cPanel server, all within a short timeline.",
-    solution: "Designed in Figma, developed with React, TypeScript, and Tailwind CSS, with MobX for state management. Deployed directly to client’s cPanel hosting.",
-    results: "Client was highly satisfied with the design, responsiveness, and overall delivery. The landing page was deployed to production within a week.",
-    video: "/projects/arabian-innovation/arabian-innovation-company-video-preview.mp4",
+    "title": "Arabian Innovation Company",
+    "description": "A complete landing page design and development project for Arabian Innovation Company. From Figma design to React development and final deployment, Devignity delivered a polished, mobile-responsive company website showcasing their ecommerce solutions.",
+    "id": "arabian-innovation-landing",
+    "createdAt": "2025-06-15",
+    "updatedAt": "2025-06-20",
+    "category": "Web Design & Development",
+    "image": "/projects/arabian-innovation/arabian-innovation-company-react-typescript-tailwind-figma-project.png", // Placeholder image
+    "technologies": ["React", "TypeScript", "Tailwind CSS", "CSS", "MobX", "Figma"],
+    "link": "https://arabianinnovation.com", // Add live link if available
+    "featured": false,
+    "slug": "arabian-innovation-landing",
+    "content": "Devignity led the complete design and development of a corporate landing page for **Arabian Innovation Company**, a leading provider of ecommerce solutions specializing in platform development, fulfillment, and logistics. The goal was to create a clean, modern, and professional online presence that clearly communicated the brand’s capabilities and values.\n\nThe project began with a custom landing page layout designed in **Figma**. After the client’s approval, we transitioned into development using **React**, **TypeScript**, and **Tailwind CSS**. Custom CSS was also applied for fine-grained control over responsiveness and styling. For state management and smoother UI interactions, we integrated **MobX**, ensuring scalability and performance.\n\nA working **contact form** was built and connected with client-side handling and backend submission. The entire solution was optimized for desktop and mobile, though implementing a fully responsive layout required careful handling of design breakpoints and interactions—especially on smaller screens.\n\nOnce development was complete, the final build was deployed directly to the client’s **cPanel server**, ensuring smooth delivery to production within a short timeframe.\n\nThe entire project was completed in **under a week**, with highly positive feedback from the client regarding the design execution, responsiveness, and deployment.",
+    "gallery": [],
+    "client": "Arabian Innovation Company",
+    "duration": "Less than 1 week",
+    "challenge": "Building a clean, mobile-responsive landing page from scratch with working form and deploying on a cPanel server, all within a short timeline.",
+    "solution": "Designed in Figma, developed with React, TypeScript, and Tailwind CSS, with MobX for state management. Deployed directly to client’s cPanel hosting.",
+    "results": "Client was highly satisfied with the design, responsiveness, and overall delivery. The landing page was deployed to production within a week.",
+    "video": "/projects/arabian-innovation/arabian-innovation-company-video-preview.mp4",
   }  
   ,{
-    title: "Baidaa",
-    description: "A comprehensive e-commerce platform developed for Baidaa using Shopify. Devignity handled full account setup, inventory and product management, plugin integration, custom features via Liquid, complete graphic design, and an app-like mobile interface tailored for the Saudi market.",
-    id: "baidaa-ecommerce",
-    createdAt: "2025-03-01",
-    updatedAt: "2025-05-20",
-    category: "E-commerce Development",
-    image: "/projects/baidaa/Baidaa-shopify-ecommerce.png", // Placeholder image
-    technologies: ["Shopify", "Liquid", "Photoshop", "Illustrator"],
-    link: "https://baidaa.ae",
-    featured: false,
-    slug: "baidaa-ecommerce",
-    content: "This project was led by the Devignity team for Baidaa, a fashion and lifestyle brand targeting women and children in the Saudi Arabian market. Our responsibility spanned the entire e-commerce development lifecycle on Shopify. Once the client provided access, we initiated the full setup of the Shopify account, including inventory structuring, product organization, and storefront customization. We also integrated essential third-party plugins for delivery and logistics management.\n\nWe were also responsible for **complete graphic design** and visual branding for Baidaa. This included designing banners, promotional materials, advertisements, and refining the brand logo. All graphics were created using **Adobe Photoshop and Illustrator** to maintain a high standard of consistency and visual appeal. Additionally, we professionally edited and enhanced the product photos before upload to ensure an elegant, unified product display across the store.\n\nBaidaa required specific, non-standard features which necessitated extensive custom development using Shopify's Liquid templating language. While our team proposed an advanced Hydrogen-based solution for flexibility and performance, the client preferred to retain Shopify's native customization panel for easier long-term management. Our developers worked within these constraints to deliver every requested functionality without compromising on quality.\n\nA standout challenge was the client’s requirement for the mobile site to feel like a native application. To meet this, we crafted a fully responsive, app-like mobile interface that provided intuitive navigation and seamless interaction.\n\nBaidaa’s product catalog included a variety of categories such as:\n- ALLY’S\n- ALLY’S KIDS\n- AIN\n- WEDDINGS & EVENTS\n- SPORTS WEAR\n- HEALTH, BEAUTY & HAIR\n\nThe project spanned over 11 weeks. Despite platform limitations, our team at Devignity delivered a polished, performant Shopify storefront aligned with the client’s brand identity and technical expectations. The client was highly satisfied with the results.\n\n(Note: The website is currently offline, but a screen recording was preserved for reference.)",
-    gallery: [],
-    client: "Baidaa",
-    duration: "11 weeks",
-    challenge: "Implementing custom features using Shopify's Liquid language, delivering a mobile app-like interface, and handling all branding/graphic work.",
-    solution: "Engineered custom Liquid components and responsive mobile design, while providing professional product photo editing and brand assets using Photoshop and Illustrator.",
-    results: "Successfully delivered a fully customized Shopify storefront with a polished mobile experience and strong visual branding. Client expressed full satisfaction.",
-    video: "/projects/baidaa/baidaa-shopify-ecommerce-video-preview.mp4",
+    "title": "Baidaa",
+    "description": "A comprehensive e-commerce platform developed for Baidaa using Shopify. Devignity handled full account setup, inventory and product management, plugin integration, custom features via Liquid, complete graphic design, and an app-like mobile interface tailored for the Saudi market.",
+    "id": "baidaa-ecommerce",
+    "createdAt": "2025-03-01",
+    "updatedAt": "2025-05-20",
+    "category": "E-commerce Development",
+    "image": "/projects/baidaa/Baidaa-shopify-ecommerce.png", // Placeholder image
+    "technologies": ["Shopify", "Liquid", "Photoshop", "Illustrator"],
+    "link": "https://baidaa.ae",
+    "featured": false,
+    "slug": "baidaa-ecommerce",
+    "content": "This project was led by the Devignity team for Baidaa, a fashion and lifestyle brand targeting women and children in the Saudi Arabian market. Our responsibility spanned the entire e-commerce development lifecycle on Shopify. Once the client provided access, we initiated the full setup of the Shopify account, including inventory structuring, product organization, and storefront customization. We also integrated essential third-party plugins for delivery and logistics management.\n\nWe were also responsible for **complete graphic design** and visual branding for Baidaa. This included designing banners, promotional materials, advertisements, and refining the brand logo. All graphics were created using **Adobe Photoshop and Illustrator** to maintain a high standard of consistency and visual appeal. Additionally, we professionally edited and enhanced the product photos before upload to ensure an elegant, unified product display across the store.\n\nBaidaa required specific, non-standard features which necessitated extensive custom development using Shopify's Liquid templating language. While our team proposed an advanced Hydrogen-based solution for flexibility and performance, the client preferred to retain Shopify's native customization panel for easier long-term management. Our developers worked within these constraints to deliver every requested functionality without compromising on quality.\n\nA standout challenge was the client’s requirement for the mobile site to feel like a native application. To meet this, we crafted a fully responsive, app-like mobile interface that provided intuitive navigation and seamless interaction.\n\nBaidaa’s product catalog included a variety of categories such "as":\n- ALLY’S\n- ALLY’S KIDS\n- AIN\n- WEDDINGS & EVENTS\n- SPORTS WEAR\n- HEALTH, BEAUTY & HAIR\n\nThe project spanned over 11 weeks. Despite platform limitations, our team at Devignity delivered a polished, performant Shopify storefront aligned with the client’s brand identity and technical expectations. The client was highly satisfied with the results.\n\n(Note: The website is currently offline, but a screen recording was preserved for reference.)",
+    "gallery": [],
+    "client": "Baidaa",
+    "duration": "11 weeks",
+    "challenge": "Implementing custom features using Shopify's Liquid language, delivering a mobile app-like interface, and handling all branding/graphic work.",
+    "solution": "Engineered custom Liquid components and responsive mobile design, while providing professional product photo editing and brand assets using Photoshop and Illustrator.",
+    "results": "Successfully delivered a fully customized Shopify storefront with a polished mobile experience and strong visual branding. Client expressed full satisfaction.",
+    "video": "/projects/baidaa/baidaa-shopify-ecommerce-video-preview.mp4",
   },
   {
-    title: "Zesty",
-    description: "A fully customized Shopify-based e-commerce solution for Zesty, a Pakistani fashion brand. Devignity managed setup, product configuration, plugin integration, custom graphics, and developed a mobile-optimized interface mimicking a native app experience.",
-    id: "zesty-ecommerce",
-    createdAt: "2025-01-10",
-    updatedAt: "2025-03-01",
-    category: "E-commerce Development",
-    image: "/projects/zesty/zesty-shopify-ecommerce.png", // Placeholder image
-    technologies: ["Shopify", "Liquid", "Photoshop", "Illustrator"],
-    link: "https://zesty.pk",
-    featured: false,
-    slug: "zesty-ecommerce",
-    content: "Zesty, a fashion-forward brand in Pakistan, engaged Devignity to build their Shopify-based e-commerce store from the ground up. The project ran over 7 weeks, during which our team managed everything from initial account configuration to post-launch readiness. We handled inventory and product setup, structured collections, and integrated essential Shopify plugins for order tracking, delivery, and performance optimization.\n\nAlongside the development, Devignity handled all **graphic design and product imagery**. This included designing banners, promotional assets, and advertisements using **Photoshop and Illustrator**, as well as professionally editing product photos for clean, consistent presentation across the storefront.\n\nZesty required several custom functionalities that were developed using Shopify’s Liquid templating system. Though we initially recommended using Hydrogen for greater flexibility, the client preferred the default customization panel so they could manage their storefront independently. Our team adapted accordingly and implemented the required features within these parameters.\n\nOne of the major deliverables was a highly responsive, app-like mobile layout. The client prioritized a native-feeling mobile experience, which required detailed attention to layout, animations, and interaction design.\n\nZesty’s product categories included:\n- KARANDI\n- MUMMY & ME WINTER VIBES\n- MUMMY & ME WINTER 22\n- FASHION JEWELRY\n\nDespite some limitations within Shopify’s customization ecosystem, the Devignity team delivered a high-performance, visually engaging store. The client was extremely pleased with the final outcome and the website was launched on time.",
-    gallery: [],
-    client: "Zesty",
-    duration: "7 weeks",
-    challenge: "Implementing custom features using Shopify’s Liquid language, creating an app-like mobile UI, and producing all visual assets including product and promotional graphics.",
-    solution: "Built and customized Shopify storefront with Liquid, designed graphics and edited photos using Photoshop/Illustrator, and delivered a responsive mobile-first layout.",
-    results: "Launched successfully with a refined mobile UI and complete branding. Client was highly satisfied with both functionality and design.",
-    video: "/projects/zesty/zesty-shopify-ecommerce-video-preview.mp4",
+    "title": "Zesty",
+    "description": "A fully customized Shopify-based e-commerce solution for Zesty, a Pakistani fashion brand. Devignity managed setup, product configuration, plugin integration, custom graphics, and developed a mobile-optimized interface mimicking a native app experience.",
+    "id": "zesty-ecommerce",
+    "createdAt": "2025-01-10",
+    "updatedAt": "2025-03-01",
+    "category": "E-commerce Development",
+    "image": "/projects/zesty/zesty-shopify-ecommerce.png", // Placeholder image
+    "technologies": ["Shopify", "Liquid", "Photoshop", "Illustrator"],
+    "link": "https://zesty.pk",
+    "featured": false,
+    "slug": "zesty-ecommerce",
+    "content": "Zesty, a fashion-forward brand in Pakistan, engaged Devignity to build their Shopify-based e-commerce store from the ground up. The project ran over 7 weeks, during which our team managed everything from initial account configuration to post-launch readiness. We handled inventory and product setup, structured collections, and integrated essential Shopify plugins for order tracking, delivery, and performance optimization.\n\nAlongside the development, Devignity handled all **graphic design and product imagery**. This included designing banners, promotional assets, and advertisements using **Photoshop and Illustrator**, as well as professionally editing product photos for clean, consistent presentation across the storefront.\n\nZesty required several custom functionalities that were developed using Shopify’s Liquid templating system. Though we initially recommended using Hydrogen for greater flexibility, the client preferred the default customization panel so they could manage their storefront independently. Our team adapted accordingly and implemented the required features within these parameters.\n\nOne of the major deliverables was a highly responsive, app-like mobile layout. The client prioritized a native-feeling mobile experience, which required detailed attention to layout, animations, and interaction design.\n\nZesty’s product categories "included":\n- KARANDI\n- MUMMY & ME WINTER VIBES\n- MUMMY & ME WINTER 22\n- FASHION JEWELRY\n\nDespite some limitations within Shopify’s customization ecosystem, the Devignity team delivered a high-performance, visually engaging store. The client was extremely pleased with the final outcome and the website was launched on time.",
+    "gallery": [],
+    "client": "Zesty",
+    "duration": "7 weeks",
+    "challenge": "Implementing custom features using Shopify’s Liquid language, creating an app-like mobile UI, and producing all visual assets including product and promotional graphics.",
+    "solution": "Built and customized Shopify storefront with Liquid, designed graphics and edited photos using Photoshop/Illustrator, and delivered a responsive mobile-first layout.",
+    "results": "Launched successfully with a refined mobile UI and complete branding. Client was highly satisfied with both functionality and design.",
+    "video": "/projects/zesty/zesty-shopify-ecommerce-video-preview.mp4",
   },
   {
-    title: "Kreuz Container 3D Modeling",
-    description: "High-fidelity 3D model and render of an industrial Kreuz container, showcasing realism, lighting, and material accuracy for commercial visualization.",
-    id: "kreuz-container-3d-modeling",
-    createdAt: "2023-09-14",
-    updatedAt: "2023-09-25",
-    category: "3D Modeling & Rendering",
-    image: "/projects/kreuzContainer/kreuz-container-3d-hero.png", // Assume you will map this to a local or hosted image
-    technologies: [
+    "title": "Kreuz Container 3D Modeling",
+    "description": "High-fidelity 3D model and render of an industrial Kreuz container, showcasing realism, lighting, and material accuracy for commercial visualization.",
+    "id": "kreuz-container-3d-modeling",
+    "createdAt": "2023-09-14",
+    "updatedAt": "2023-09-25",
+    "category": "3D Modeling & Rendering",
+    "image": "/projects/kreuzContainer/kreuz-container-3d-hero.png", // Assume you will map this to a local or hosted image
+    "technologies": [
       "Blender",
       "Cycles",
       "Photoshop",
       "Figma"
     ],
-    link: "https://www.behance.net/gallery/207395907/Kreuz-Container-3d-modeling-and-rendering",
-    featured: true,
-    slug: "kreuz-container-3d-modeling",
-    content: "This project involved modeling and rendering a Kreuz container with high realism and attention to detail. The objective was to produce clean, presentation-ready visuals suitable for promotional or commercial use. Lighting, texturing, and camera composition were carefully handled to bring out the metallic surfaces and rugged feel of the container.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/207395907/Kreuz-Container-3d-modeling-and-rendering",
+    "featured": true,
+    "slug": "kreuz-container-3d-modeling",
+    "content": "This project involved modeling and rendering a Kreuz container with high realism and attention to detail. The objective was to produce clean, presentation-ready visuals suitable for promotional or commercial use. Lighting, texturing, and camera composition were carefully handled to bring out the metallic surfaces and rugged feel of the container.",
+    "gallery": [
       "/projects/kreuzContainer/kreuz-container-3d-hero.png",
       "/projects/kreuzContainer/kreuz-2.jpg",
       "/projects/kreuzContainer/kreuz-3.jpg",
       "/projects/kreuzContainer/kreuz-4.jpg"
     ],
-    client: "Personal Project",
-    duration: "1.5 weeks",
-    challenge: "Capturing industrial realism while maintaining a clean and modern render style. The modeling required precision and reference alignment, and achieving the right metallic surface reflections and weathering presented technical rendering challenges.",
-    solution: "The container was modeled in Blender with a clean mesh structure. Custom materials were created using Blender’s shader nodes, and Cycles was used for high-quality path-traced rendering. Lighting was balanced to highlight the edges and panels, while post-processing in Photoshop was applied for subtle adjustments and final polish.",
-    results: "The final renders were well-received for their realistic detail and presentation value. The project demonstrates skill in hard surface modeling, material realism, and commercial-grade rendering workflows.",
+    "client": "Personal Project",
+    "duration": "1.5 weeks",
+    "challenge": "Capturing industrial realism while maintaining a clean and modern render style. The modeling required precision and reference alignment, and achieving the right metallic surface reflections and weathering presented technical rendering challenges.",
+    "solution": "The container was modeled in Blender with a clean mesh structure. Custom materials were created using Blender’s shader nodes, and Cycles was used for high-quality path-traced rendering. Lighting was balanced to highlight the edges and panels, while post-processing in Photoshop was applied for subtle adjustments and final polish.",
+    "results": "The final renders were well-received for their realistic detail and presentation value. The project demonstrates skill in hard surface modeling, material realism, and commercial-grade rendering workflows.",
   },
   {
-    title: "Hard Edges 3D Modeling",
-    description: "A collection of precise industrial 3D models — including chrome drains, P-traps, and water connectors — focused on showcasing hard-surface modeling techniques, realistic materials, and studio-grade rendering.",
-    id: "hard-edges-3d-modeling",
-    createdAt: "2022-06-03",
-    updatedAt: "2022-06-10",
-    category: "3D Modeling & Rendering",
-    image: "/projects/hardEdges/hard-edges-3d-hero.png",
-    technologies: [
+    "title": "Hard Edges 3D Modeling",
+    "description": "A collection of precise industrial 3D models — including chrome drains, P-traps, and water connectors — focused on showcasing hard-surface modeling techniques, realistic materials, and studio-grade rendering.",
+    "id": "hard-edges-3d-modeling",
+    "createdAt": "2022-06-03",
+    "updatedAt": "2022-06-10",
+    "category": "3D Modeling & Rendering",
+    "image": "/projects/hardEdges/hard-edges-3d-hero.png",
+    "technologies": [
       "Blender",
       "Cycles",
       "Substance Painter",
       "Photoshop"
     ],
-    link: "https://www.behance.net/gallery/206551609/Hard-Edges-3d-Modeling",
-    featured: false,
-    slug: "hard-edges-3d-modeling",
-    content: "This project showcases a series of hard-surface industrial models: Chrome Drain, Metal Cable Drain, P-Trap, and Water Connector. The focus was on achieving accurate proportions, sharp edge detailing, and realistic materials for each part. Ideal for commercial or technical visualization, these models highlight attention to geometry, form, and surface finish.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/206551609/Hard-Edges-3d-Modeling",
+    "featured": false,
+    "slug": "hard-edges-3d-modeling",
+    "content": "This project showcases a series of hard-surface industrial "models": Chrome Drain, Metal Cable Drain, P-Trap, and Water Connector. The focus was on achieving accurate proportions, sharp edge detailing, and realistic materials for each part. Ideal for commercial or technical visualization, these models highlight attention to geometry, form, and surface finish.",
+    "gallery": [
       "/projects/hardEdges/hard-edges-3d-hero.png",
       "/projects/hardEdges/hard-edges-2.jpg",
       "/projects/hardEdges/hard-edges-3.jpg",
       "/projects/hardEdges/hard-edges-4.jpg"
     ],
-    client: "Self‑Initiated / Product Visualization",
-    duration: "1 week",
-    challenge: "Each product required precise edge flow and high accuracy in proportions while avoiding mesh artifacts post-subdivision. Capturing reflective and metallic surfaces with correct lighting added complexity to the rendering process.",
-    solution: "Each model was crafted in Blender using a non-destructive workflow. Creases and bevels were controlled for edge sharpness. Materials were refined using Substance Painter and rendered using Cycles with HDRI studio lighting. Final adjustments were done in Photoshop for contrast and clarity.",
-    results: "The final renders achieved a clean, realistic aesthetic suitable for product visualization portfolios. The use of true-to-life materials and lighting helped each item stand out, delivering a strong impression of industrial design precision."
+    "client": "Self‑Initiated / Product Visualization",
+    "duration": "1 week",
+    "challenge": "Each product required precise edge flow and high accuracy in proportions while avoiding mesh artifacts post-subdivision. Capturing reflective and metallic surfaces with correct lighting added complexity to the rendering process.",
+    "solution": "Each model was crafted in Blender using a non-destructive workflow. Creases and bevels were controlled for edge sharpness. Materials were refined using Substance Painter and rendered using Cycles with HDRI studio lighting. Final adjustments were done in Photoshop for contrast and clarity.",
+    "results": "The final renders achieved a clean, realistic aesthetic suitable for product visualization portfolios. The use of true-to-life materials and lighting helped each item stand out, delivering a strong impression of industrial design precision."
   },
   {
-    title: "Squat Perfect 3D Model",
-    description: "A realistic 3D model of a fitness-themed squat-perfect object, focusing on precise geometry, texture realism, and composition suitable for promotional renders.",
-    id: "squat-perfect-3d-model",
-    createdAt: "2021-08-20",
-    updatedAt: "2021-08-25",
-    category: "3D Modeling & Rendering",
-    image: "/projects/squatPerfect/squat-perfect-3d-hero.png",
-    technologies: [
+    "title": "Squat Perfect 3D Model",
+    "description": "A realistic 3D model of a fitness-themed squat-perfect object, focusing on precise geometry, texture realism, and composition suitable for promotional renders.",
+    "id": "squat-perfect-3d-model",
+    "createdAt": "2021-08-20",
+    "updatedAt": "2021-08-25",
+    "category": "3D Modeling & Rendering",
+    "image": "/projects/squatPerfect/squat-perfect-3d-hero.png",
+    "technologies": [
       "Blender",
       "Cycles",
       "Substance Painter",
       "Photoshop"
     ],
-    link: "https://www.behance.net/gallery/206550701/Squat-Perfect-3D-Model",
-    featured: false,
-    slug: "squat-perfect-3d-model",
-    content: "This project presents the 3D modeling and rendering of a ‘Squat Perfect’ fitness-themed object, combining sharp hard-surface modeling and studio-style presentation. Designed to demonstrate my skill in creating clean geometry, realistic textures, and visually balanced compositions.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/206550701/Squat-Perfect-3D-Model",
+    "featured": false,
+    "slug": "squat-perfect-3d-model",
+    "content": "This project presents the 3D modeling and rendering of a ‘Squat Perfect’ fitness-themed object, combining sharp hard-surface modeling and studio-style presentation. Designed to demonstrate my skill in creating clean geometry, realistic textures, and visually balanced compositions.",
+    "gallery": [
       "/projects/squatPerfect/squat-perfect-3d-hero.png",
       "/projects/squatPerfect/squat-perfect-2.png",
       "/projects/squatPerfect/squat-perfect-3.png",
@@ -435,59 +434,59 @@
       "/projects/squatPerfect/squat-perfect-6.png",
       "/projects/squatPerfect/squat-perfect-7.png"
     ],
-    client: "Self‑Initiated / Concept Visualization",
-    duration: "5 days",
-    challenge: "Defining clean geometry and accurate proportions for a conceptual fitness subject, while crafting lifelike materials and lighting to support a polished, professional-render aesthetic.",
-    solution: "Modeled the object in Blender with careful topology control and edge definition. Materials were refined using Substance Painter for realistic surface detail. Final renders were generated in Cycles with HDRI lighting, and Photoshop was used for post‑processing clarity and color balance.",
-    results: "The final renders convey a strong, professional impression with precise geometry and realistic finish. This piece demonstrates versatility in both aesthetic and technical execution within 3D visualization."
+    "client": "Self‑Initiated / Concept Visualization",
+    "duration": "5 days",
+    "challenge": "Defining clean geometry and accurate proportions for a conceptual fitness subject, while crafting lifelike materials and lighting to support a polished, professional-render aesthetic.",
+    "solution": "Modeled the object in Blender with careful topology control and edge definition. Materials were refined using Substance Painter for realistic surface detail. Final renders were generated in Cycles with HDRI lighting, and Photoshop was used for post‑processing clarity and color balance.",
+    "results": "The final renders convey a strong, professional impression with precise geometry and realistic finish. This piece demonstrates versatility in both aesthetic and technical execution within 3D visualization."
   },
   {
-    title: "My Heart Has Grown – A Child’s Journey Through the Time of the Coronavirus",
-    description: "An emotionally resonant children’s book written by Lucas Foster and illustrated by Wajahat Baig, capturing a child’s perspective during the COVID-19 pandemic with gentle storytelling and heartfelt visuals.",
-    id: "my-heart-has-grown-childrens-book",
-    createdAt: "2021-03-01",
-    updatedAt: "2021-03-22",
-    category: "Children’s Book Illustration",
-    image: "/projects/myHeartHasGrown/my-heart-has-grown-book-cover.png",
-    technologies: [
+    "title": "My Heart Has Grown – A Child’s Journey Through the Time of the Coronavirus",
+    "description": "An emotionally resonant children’s book written by Lucas Foster and illustrated by Wajahat Baig, capturing a child’s perspective during the COVID-19 pandemic with gentle storytelling and heartfelt visuals.",
+    "id": "my-heart-has-grown-childrens-book",
+    "createdAt": "2021-03-01",
+    "updatedAt": "2021-03-22",
+    "category": "Children’s Book Illustration",
+    "image": "/projects/myHeartHasGrown/my-heart-has-grown-book-cover.png",
+    "technologies": [
       "Procreate",
       "Adobe Illustrator",
       "Photoshop",
       "InDesign"
     ],
-    link: "https://www.behance.net/gallery/113797559/My-Heart-Has-Grown-Children-Book",
-    featured: true,
-    slug: "my-heart-has-grown-childrens-book",
-    content: "‘My Heart Has Grown’ is a children’s book written by Lucas Foster and beautifully illustrated by Wajahat Baig. The book gently guides young readers through the emotional changes, isolation, and adaptation brought on by the COVID-19 pandemic. The illustrations play a vital role in making complex feelings accessible and comforting for children navigating uncertain times.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113797559/My-Heart-Has-Grown-Children-Book",
+    "featured": true,
+    "slug": "my-heart-has-grown-childrens-book",
+    "content": "‘My Heart Has Grown’ is a children’s book written by Lucas Foster and beautifully illustrated by Wajahat Baig. The book gently guides young readers through the emotional changes, isolation, and adaptation brought on by the COVID-19 pandemic. The illustrations play a vital role in making complex feelings accessible and comforting for children navigating uncertain times.",
+    "gallery": [
       "/projects/myHeartHasGrown/my-heart-has-grown-book-cover.png",
       "/projects/myHeartHasGrown/myhearthasgrown-2.jpg"
     ],
-    client: "Lucas Foster (Author)",
-    duration: "3 weeks",
-    challenge: "Translating emotional and sensitive themes like uncertainty, fear, and resilience into warm and accessible visuals for children. The style needed to be gentle and empathetic without overwhelming young readers.",
-    solution: "The illustration process began with hand-drawn concepts, which were then rendered digitally using Procreate. Colors and textures were carefully chosen to reflect changing emotional tones throughout the story. Adobe Illustrator and Photoshop were used for layout refinement and finishing touches, while InDesign handled the final book formatting.",
-    results: "The finished book resonated strongly with readers and families during the pandemic. It served as a valuable resource for helping children process difficult emotions through story and art. The project showcases Wajahat Baig’s ability to handle sensitive themes with compassion, style, and storytelling clarity."
+    "client": "Lucas Foster (Author)",
+    "duration": "3 weeks",
+    "challenge": "Translating emotional and sensitive themes like uncertainty, fear, and resilience into warm and accessible visuals for children. The style needed to be gentle and empathetic without overwhelming young readers.",
+    "solution": "The illustration process began with hand-drawn concepts, which were then rendered digitally using Procreate. Colors and textures were carefully chosen to reflect changing emotional tones throughout the story. Adobe Illustrator and Photoshop were used for layout refinement and finishing touches, while InDesign handled the final book formatting.",
+    "results": "The finished book resonated strongly with readers and families during the pandemic. It served as a valuable resource for helping children process difficult emotions through story and art. The project showcases Wajahat Baig’s ability to handle sensitive themes with compassion, style, and storytelling clarity."
   },
   {
-    title: "Social Media Posts Series",
-    description: "A curated collection of bespoke social media graphic designs created for brand storytelling and audience engagement across platforms.",
-    id: "social-media-posts-series",
-    createdAt: "2020-11-10",
-    updatedAt: "2020-11-24",
-    category: "Graphic Design / Social Media",
-    image: "/projects/socialMediaPosts/social-media-posts-cover.png",
-    technologies: [
+    "title": "Social Media Posts Series",
+    "description": "A curated collection of bespoke social media graphic designs created for brand storytelling and audience engagement across platforms.",
+    "id": "social-media-posts-series",
+    "createdAt": "2020-11-10",
+    "updatedAt": "2020-11-24",
+    "category": "Graphic Design / Social Media",
+    "image": "/projects/socialMediaPosts/social-media-posts-cover.png",
+    "technologies": [
       "Adobe Illustrator",
       "Adobe Photoshop",
       "Figma",
       "Canva"
     ],
-    link: "https://www.behance.net/gallery/113798321/Social-Media-Posts",
-    featured: false,
-    slug: "social-media-posts-series",
-    content: "This project compiles a variety of branded social media posts designed for use across platforms like Instagram, Facebook, and LinkedIn. The visuals incorporate bold typography, vibrant photography, and clean layouts tailored to enhance engagement and brand messaging.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113798321/Social-Media-Posts",
+    "featured": false,
+    "slug": "social-media-posts-series",
+    "content": "This project compiles a variety of branded social media posts designed for use across platforms like Instagram, Facebook, and LinkedIn. The visuals incorporate bold typography, vibrant photography, and clean layouts tailored to enhance engagement and brand messaging.",
+    "gallery": [
       "/projects/socialMediaPosts/social-media-posts-cover.png",
       "/projects/socialMediaPosts/social-media-post-10.png",
       "/projects/socialMediaPosts/social-media-post-11.png",
@@ -523,60 +522,60 @@
       "/projects/socialMediaPosts/social-media-post-8.png",
       "/projects/socialMediaPosts/social-media-post-9.png"
     ],
-    client: "Multiple Clients / Campaign Work",
-    duration: "2 weeks",
-    challenge: "Designing versatile graphics that adapt to multiple platform formats while keeping visual coherence and brand voice across variations.",
-    solution: "Developed visual templates in Illustrator and Photoshop, ensuring consistent style elements (color palette, typography, iconography). Some mockups were done in Figma for layout variation. Canva versions were also prepared to support easy client editing.",
-    results: "Delivered a cohesive suite of social assets that enhanced brand visibility and engagement rates during campaigns. Clients appreciated the adaptability and polished branding across all posts."
+    "client": "Multiple Clients / Campaign Work",
+    "duration": "2 weeks",
+    "challenge": "Designing versatile graphics that adapt to multiple platform formats while keeping visual coherence and brand voice across variations.",
+    "solution": "Developed visual templates in Illustrator and Photoshop, ensuring consistent style elements (color palette, typography, iconography). Some mockups were done in Figma for layout variation. Canva versions were also prepared to support easy client editing.",
+    "results": "Delivered a cohesive suite of social assets that enhanced brand visibility and engagement rates during campaigns. Clients appreciated the adaptability and polished branding across all posts."
   },
   {
-    title: "Ebook Cover Design / Book Cover",
-    description: "A professional-level ebook/paperback cover design project, showcasing visual storytelling, typography, and client-facing illustration intended for digital publishing and print.",
-    id: "ebook-cover-design-book-cover",
-    createdAt: "2024-02-15",
-    updatedAt: "2024-02-19",
-    category: "Graphic Design / Book Cover",
-    image: "/projects/ebookCover/book-cover-hero.png",
-    technologies: [
+    "title": "Ebook Cover Design / Book Cover",
+    "description": "A professional-level ebook/paperback cover design project, showcasing visual storytelling, typography, and client-facing illustration intended for digital publishing and print.",
+    "id": "ebook-cover-design-book-cover",
+    "createdAt": "2024-02-15",
+    "updatedAt": "2024-02-19",
+    "category": "Graphic Design / Book Cover",
+    "image": "/projects/ebookCover/book-cover-hero.png",
+    "technologies": [
       "Adobe Photoshop",
       "Adobe Illustrator",
       "InDesign"
     ],
-    link: "https://www.behance.net/gallery/113877563/Ebook-Cover-Design-Book-Cover",
-    featured: false,
-    slug: "ebook-cover-design-book-cover",
-    content: "This cover design project features a custom-designed book/ebook layout, combining imagery, typography, and layout principles to create a professional, impactful thumbnail and print-ready cover. It includes creative mockups and formatting aligned with publishing specifications.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113877563/Ebook-Cover-Design-Book-Cover",
+    "featured": false,
+    "slug": "ebook-cover-design-book-cover",
+    "content": "This cover design project features a custom-designed book/ebook layout, combining imagery, typography, and layout principles to create a professional, impactful thumbnail and print-ready cover. It includes creative mockups and formatting aligned with publishing specifications.",
+    "gallery": [
       "/projects/ebookCover/book-cover-hero.png",
       "/projects/ebookCover/ebook-cover-2.jpg",
       "/projects/ebookCover/ebook-cover-3.jpg",
       "/projects/ebookCover/ebook-cover-4.jpg",
       "/projects/ebookCover/ebook-cover-5.jpg"
     ],
-    client: "Freelance / Publisher",
-    duration: "4 days",
-    challenge: "Developing a visually compelling cover that communicates genre and tone while adapting to both digital thumbnails and print dimensions, including spine and back layouts.",
-    solution: "Provided mockups in Photoshop and Illustrator, refined cover imagery and typography, and ensured final files were formatted for both ebook and print (KDP or similar). Incorporated feedback through revision cycles.",
-    results: "Delivered polished, market-ready cover visuals optimized for digital and print platforms. Clients praised the readability, visual impact, and smooth delivery of multiple format outputs."
+    "client": "Freelance / Publisher",
+    "duration": "4 days",
+    "challenge": "Developing a visually compelling cover that communicates genre and tone while adapting to both digital thumbnails and print dimensions, including spine and back layouts.",
+    "solution": "Provided mockups in Photoshop and Illustrator, refined cover imagery and typography, and ensured final files were formatted for both ebook and print (KDP or similar). Incorporated feedback through revision cycles.",
+    "results": "Delivered polished, market-ready cover visuals optimized for digital and print platforms. Clients praised the readability, visual impact, and smooth delivery of multiple format outputs."
   },
   {
-    title: "KushingToTheLimit – T-Shirt Design & Realistic Mockups",
-    description: "A branded t‑shirt design project created for “KushingToTheLimit,” featuring custom graphics and high‑quality mockups suitable for merchandise, social media, and brand promotion.",
-    id: "kushingtothelimit-tshirt-design",
-    createdAt: "2020-07-08",
-    updatedAt: "2020-07-12",
-    category: "Graphic Design / Apparel Mockup",
-    image: "/projects/kushing/KushingToTheLimit-cover.png",
-    technologies: [
+    "title": "KushingToTheLimit – T-Shirt Design & Realistic Mockups",
+    "description": "A branded t‑shirt design project created for “KushingToTheLimit,” featuring custom graphics and high‑quality mockups suitable for merchandise, social media, and brand promotion.",
+    "id": "kushingtothelimit-tshirt-design",
+    "createdAt": "2020-07-08",
+    "updatedAt": "2020-07-12",
+    "category": "Graphic Design / Apparel Mockup",
+    "image": "/projects/kushing/KushingToTheLimit-cover.png",
+    "technologies": [
       "Adobe Illustrator",
       "Adobe Photoshop",
       "Mockup templates"
     ],
-    link: "https://www.behance.net/gallery/111154731/T‑Shirt‑Designing",
-    featured: false,
-    slug: "kushingtothelimit-tshirt-design",
-    content: "A branded t‑shirt design series created for the KushingToTheLimit label, featuring unique graphic styles and realistic mockups. The aim was to deliver compelling visuals for product listings and social media promotion, reflecting the brand’s identity.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/111154731/T‑Shirt‑Designing",
+    "featured": false,
+    "slug": "kushingtothelimit-tshirt-design",
+    "content": "A branded t‑shirt design series created for the KushingToTheLimit label, featuring unique graphic styles and realistic mockups. The aim was to deliver compelling visuals for product listings and social media promotion, reflecting the brand’s identity.",
+    "gallery": [
       "/projects/kushing/KushingToTheLimit-cover.png",
       "/projects/kushing/kush-t-shirt-10.png",
       "/projects/kushing/kush-t-shirt-11.jpg",
@@ -605,31 +604,31 @@
       "/projects/kushing/kush-t-shirt-8.png",
       "/projects/kushing/kush-t-shirt-9.jpg"
     ],
-    client: "KushingToTheLimit",
-    duration: "4 days",
-    challenge: "Creating visually appealing and brand-aligned t‑shirt graphics while ensuring mockups looked realistic and properly styled for diverse media formats.",
-    solution: "Designed vector-based graphics in Illustrator, refined color and layout variations in Photoshop, and applied designs to mockups of tees on flat‑lays and models using high‑resolution templates.",
-    results: "Delivered a polished collection of t‑shirt designs and mockups that enhanced the brand presence of KushingToTheLimit. The visuals were used across e‑commerce and social media platforms, contributing to consistent branding and promotional efficacy."
+    "client": "KushingToTheLimit",
+    "duration": "4 days",
+    "challenge": "Creating visually appealing and brand-aligned t‑shirt graphics while ensuring mockups looked realistic and properly styled for diverse media formats.",
+    "solution": "Designed vector-based graphics in Illustrator, refined color and layout variations in Photoshop, and applied designs to mockups of tees on flat‑lays and models using high‑resolution templates.",
+    "results": "Delivered a polished collection of t‑shirt designs and mockups that enhanced the brand presence of KushingToTheLimit. The visuals were used across e‑commerce and social media platforms, contributing to consistent branding and promotional efficacy."
   },
   {
-    title: "3D Mockup & Label Design",
-    description: "A series of 3D product mockups paired with custom label designs, created to present branding in polished, photorealistic contexts.",
-    id: "3d-mockup-label-design",
-    createdAt: "2021-04-10",
-    updatedAt: "2021-04-17",
-    category: "Product Visualization / Label Design",
-    image: "/projects/labelMockups/label-mockup-cover.png",
-    technologies: [
+    "title": "3D Mockup & Label Design",
+    "description": "A series of 3D product mockups paired with custom label designs, created to present branding in polished, photorealistic contexts.",
+    "id": "3d-mockup-label-design",
+    "createdAt": "2021-04-10",
+    "updatedAt": "2021-04-17",
+    "category": "Product Visualization / Label Design",
+    "image": "/projects/labelMockups/label-mockup-cover.png",
+    "technologies": [
       "Adobe Illustrator",
       "Adobe Photoshop",
       "Cinema 4D",
       "Photoshop mockup templates"
     ],
-    link: "https://www.behance.net/gallery/113502193/3d-Mockup-and-Label-Design",
-    featured: false,
-    slug: "3d-mockup-label-design",
-    content: "This project showcases several product mockups—such as bottles or packaging—featuring custom label artwork applied in photorealistic 3D renders. The combination highlights both branding and contextual presentation.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113502193/3d-Mockup-and-Label-Design",
+    "featured": false,
+    "slug": "3d-mockup-label-design",
+    "content": "This project showcases several product mockups—such as bottles or packaging—featuring custom label artwork applied in photorealistic 3D renders. The combination highlights both branding and contextual presentation.",
+    "gallery": [
       "/projects/labelMockups/label-mockup-cover.png",
       "/projects/labelMockups/3d-mockup-10.png",
       "/projects/labelMockups/3d-mockup-11.png",
@@ -687,57 +686,57 @@
       "/projects/labelMockups/3d-mockup-8.png",
       "/projects/labelMockups/3d-mockup-9.png"
     ],
-    client: "Multiple Clients / Freelance",
-    duration: "1 week",
-    challenge: "Designing labels that stand out while ensuring accurate application to 3D surfaces (e.g., bottles, jars) for lifelike rendering. Balancing graphic clarity, material realism, and design legibility was critical.",
-    solution: "Created label artwork in Illustrator and imported designs into mockup templates or Cinema 4D models. Applied textures and materials with correct UV mapping and lighting. Final renders polished in Photoshop for presentation-level quality.",
-    results: "Delivered high-quality mockups that elevated the label designs and branding presentations. Clients appreciated the realistic context and polished visuals that supported marketing and packaging use cases."
+    "client": "Multiple Clients / Freelance",
+    "duration": "1 week",
+    "challenge": "Designing labels that stand out while ensuring accurate application to 3D surfaces (e.g., bottles, jars) for lifelike rendering. Balancing graphic clarity, material realism, and design legibility was critical.",
+    "solution": "Created label artwork in Illustrator and imported designs into mockup templates or Cinema 4D models. Applied textures and materials with correct UV mapping and lighting. Final renders polished in Photoshop for presentation-level quality.",
+    "results": "Delivered high-quality mockups that elevated the label designs and branding presentations. Clients appreciated the realistic context and polished visuals that supported marketing and packaging use cases."
   },
   {
-    title: "Children’s Book Illustration Portfolio",
-    description: "A diverse collection of children’s illustrations intended for various uses—storybooks, editorial spreads, greeting cards, and character concepts—showcasing a range of visual styles and emotional storytelling.",
-    id: "children-book-illustration-portfolio",
-    createdAt: "2024-06-02",
-    updatedAt: "2024-06-16",
-    category: "Illustration / Character Design",
-    image: "/projects/childrenIllustration/children-book-illustration-cover.png",
-    technologies: [
+    "title": "Children’s Book Illustration Portfolio",
+    "description": "A diverse collection of children’s illustrations intended for various uses—storybooks, editorial spreads, greeting cards, and character concepts—showcasing a range of visual styles and emotional storytelling.",
+    "id": "children-book-illustration-portfolio",
+    "createdAt": "2024-06-02",
+    "updatedAt": "2024-06-16",
+    "category": "Illustration / Character Design",
+    "image": "/projects/childrenIllustration/children-book-illustration-cover.png",
+    "technologies": [
       "Procreate",
       "Adobe Photoshop",
       "Adobe Illustrator",
       "InDesign"
     ],
-    link: "https://www.behance.net/gallery/113500095/Children-Book-illustration",
-    featured: false,
-    slug: "children-book-illustration-portfolio",
-    content: "A varied series of children’s illustrations created for storytelling, editorial use, character design, and greeting cards. These pieces highlight vibrant color palettes, expressive character work, and atmospheric compositions suited to young audiences.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113500095/Children-Book-illustration",
+    "featured": false,
+    "slug": "children-book-illustration-portfolio",
+    "content": "A varied series of children’s illustrations created for storytelling, editorial use, character design, and greeting cards. These pieces highlight vibrant color palettes, expressive character work, and atmospheric compositions suited to young audiences.",
+    "gallery": [
       "/projects/childrenIllustration/children-book-illustration-cover.png"
     ],
-    client: "Self‑Initiated / Editorial & Personal Projects",
-    duration: "2 weeks",
-    challenge: "Balancing different illustration purposes and styles—from character concepts to narrative scenes—while maintaining consistency in quality, color, and emotional tone for young readers.",
-    solution: "Started with thumbnail sketches and refined key illustrations digitally in Procreate. Cleaned up in Photoshop and Illustrator as needed. Designed multi-purpose layout variants in InDesign for story or card formats.",
-    results: "Delivered an expressive and versatile illustration suite well-suited for publishing, editorial, and branded use cases. Projects received positive reactions for their emotional clarity, style variety, and narrative sensibility."
+    "client": "Self‑Initiated / Editorial & Personal Projects",
+    "duration": "2 weeks",
+    "challenge": "Balancing different illustration purposes and styles—from character concepts to narrative scenes—while maintaining consistency in quality, color, and emotional tone for young readers.",
+    "solution": "Started with thumbnail sketches and refined key illustrations digitally in Procreate. Cleaned up in Photoshop and Illustrator as needed. Designed multi-purpose layout variants in InDesign for story or card formats.",
+    "results": "Delivered an expressive and versatile illustration suite well-suited for publishing, editorial, and branded use cases. Projects received positive reactions for their emotional clarity, style variety, and narrative sensibility."
   },
   {
-    title: "Illustration & Vector Artwork Collection",
-    description: "A creative set of vector-based illustrations crafted for various purposes, including editorial, branding, greeting cards, and personal projects. This collection explores character-driven scenes and emotionally expressive compositions.",
-    id: "illustration-vector-art-collection",
-    createdAt: "2024-01-15",
-    updatedAt: "2024-01-29",
-    category: "Illustration / Vector Art",
-    image: "/projects/illustrationVector/illustration-vector-cover.png",
-    technologies: [
+    "title": "Illustration & Vector Artwork Collection",
+    "description": "A creative set of vector-based illustrations crafted for various purposes, including editorial, branding, greeting cards, and personal projects. This collection explores character-driven scenes and emotionally expressive compositions.",
+    "id": "illustration-vector-art-collection",
+    "createdAt": "2024-01-15",
+    "updatedAt": "2024-01-29",
+    "category": "Illustration / Vector Art",
+    "image": "/projects/illustrationVector/illustration-vector-cover.png",
+    "technologies": [
       "Adobe Illustrator",
       "Procreate",
       "Adobe Photoshop"
     ],
-    link: "https://www.behance.net/gallery/113500095/Children-Book-illustration",
-    featured: false,
-    slug: "illustration-vector-art-collection",
-    content: "This project features a series of personal and commissioned vector illustrations, ranging from stylized portraits to whimsical compositions. Each piece showcases unique concepts, clean linework, and thoughtful use of color, optimized for both digital and print formats.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113500095/Children-Book-illustration",
+    "featured": false,
+    "slug": "illustration-vector-art-collection",
+    "content": "This project features a series of personal and commissioned vector illustrations, ranging from stylized portraits to whimsical compositions. Each piece showcases unique concepts, clean linework, and thoughtful use of color, optimized for both digital and print formats.",
+    "gallery": [
       "/projects/illustrationVector/illustration-vector-cover.png",
       "/projects/illustrationVector/vector-artwork-10.png",
       "/projects/illustrationVector/vector-artwork-11.png",
@@ -753,30 +752,30 @@
       "/projects/illustrationVector/vector-artwork-8.jpg",
       "/projects/illustrationVector/vector-artwork-9.jpg"
     ],
-    client: "Various / Personal Projects",
-    duration: "2 weeks",
-    challenge: "Developing expressive visuals that maintain clarity and consistency in vector format while adapting to a variety of creative use cases.",
-    solution: "Initial sketches were created in Procreate and later vectorized in Adobe Illustrator. Additional detail and texture were added in Photoshop where needed, ensuring a balance between flat style and visual depth.",
-    results: "Produced a cohesive and versatile set of illustrations suited for branding, editorial, and lifestyle content. The collection highlights stylistic range and emotional expression in modern vector art."
+    "client": "Various / Personal Projects",
+    "duration": "2 weeks",
+    "challenge": "Developing expressive visuals that maintain clarity and consistency in vector format while adapting to a variety of creative use cases.",
+    "solution": "Initial sketches were created in Procreate and later vectorized in Adobe Illustrator. Additional detail and texture were added in Photoshop where needed, ensuring a balance between flat style and visual depth.",
+    "results": "Produced a cohesive and versatile set of illustrations suited for branding, editorial, and lifestyle content. The collection highlights stylistic range and emotional expression in modern vector art."
   },
   {
-    title: "Logo Design Collection",
-    description: "A curated selection of custom logo designs created for various brands, each tailored to express individual identity, typography, and visual strategy.",
-    id: "logo-design-collection",
-    createdAt: "2023-03-12",
-    updatedAt: "2023-03-26",
-    category: "Branding / Logo Design",
-    image: "/projects/logoDesigns/logo-designs-cover.png",
-    technologies: [
+    "title": "Logo Design Collection",
+    "description": "A curated selection of custom logo designs created for various brands, each tailored to express individual identity, typography, and visual strategy.",
+    "id": "logo-design-collection",
+    "createdAt": "2023-03-12",
+    "updatedAt": "2023-03-26",
+    "category": "Branding / Logo Design",
+    "image": "/projects/logoDesigns/logo-designs-cover.png",
+    "technologies": [
       "Adobe Illustrator",
       "Adobe Photoshop",
       "Figma"
     ],
-    link: "https://www.behance.net/gallery/113795843/Logo-Designs",
-    featured: false,
-    slug: "logo-design-collection",
-    content: "This project showcases a diverse array of logo identities developed for different clients and personal design briefs. The portfolio emphasizes thoughtful use of typography, symbolism, and visual language to support brand narratives.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/113795843/Logo-Designs",
+    "featured": false,
+    "slug": "logo-design-collection",
+    "content": "This project showcases a diverse array of logo identities developed for different clients and personal design briefs. The portfolio emphasizes thoughtful use of typography, symbolism, and visual language to support brand narratives.",
+    "gallery": [
       "/projects/logoDesigns/logo-designs-cover.png",
       "/projects/logoDesigns/logo-2.png",
       "/projects/logoDesigns/logo-3.jpg",
@@ -784,31 +783,31 @@
       "/projects/logoDesigns/logo-5.png",
       "/projects/logoDesigns/logo-6.png"
     ],
-    client: "Various Brands / Freelance",
-    duration: "2 weeks",
-    challenge: "Creating distinct and memorable logos that align with each brand’s values and visual identity while maintaining versatility across formats and scales.",
-    solution: "Explored multiple concepts through hand sketches and wireframes, iterated digitally in Illustrator, refined typography and spacing in Figma, and finalized visual language harmony in Photoshop. Delivered scalable vector files and mockups to clients.",
-    results: "Produced a cohesive set of strong brand marks that effectively communicate identity and flexibility in use—featured across print, websites, and social media materials. Clients appreciated the professionalism and adaptability of each logo design."
+    "client": "Various Brands / Freelance",
+    "duration": "2 weeks",
+    "challenge": "Creating distinct and memorable logos that align with each brand’s values and visual identity while maintaining versatility across formats and scales.",
+    "solution": "Explored multiple concepts through hand sketches and wireframes, iterated digitally in Illustrator, refined typography and spacing in Figma, and finalized visual language harmony in Photoshop. Delivered scalable vector files and mockups to clients.",
+    "results": "Produced a cohesive set of strong brand marks that effectively communicate identity and flexibility in use—featured across print, websites, and social media materials. Clients appreciated the professionalism and adaptability of each logo design."
   },
   {
-    title: "Algorigin Medicine 3D Model",
-    description: "A highly detailed 3D model of a medicine container (capsule or bottle) created for product visualization purposes, showcasing material realism and clean branding mockup presentation.",
-    id: "algorigin-medicine-3d-model",
-    createdAt: "2022-05-05",
-    updatedAt: "2022-05-10",
-    category: "3D Modeling & Rendering",
-    image: "/projects/algoriginMedicine/algorigin-medicine-hero.png",
-    technologies: [
+    "title": "Algorigin Medicine 3D Model",
+    "description": "A highly detailed 3D model of a medicine container (capsule or bottle) created for product visualization purposes, showcasing material realism and clean branding mockup presentation.",
+    "id": "algorigin-medicine-3d-model",
+    "createdAt": "2022-05-05",
+    "updatedAt": "2022-05-10",
+    "category": "3D Modeling & Rendering",
+    "image": "/projects/algoriginMedicine/algorigin-medicine-hero.png",
+    "technologies": [
       "Blender",
       "Cycles",
       "Substance Painter",
       "Photoshop"
     ],
-    link: "https://www.behance.net/gallery/206551353/Algorigin-Medicine-3D-Model",
-    featured: false,
-    slug: "algorigin-medicine-3d-model",
-    content: "This project involved modeling a pharmaceutical product (medicine container) in 3D for branding or promotional use. The focus was on achieving precise container geometry, realistic material finishes, and professional-level mockups suitable for presentation or client review.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/206551353/Algorigin-Medicine-3D-Model",
+    "featured": false,
+    "slug": "algorigin-medicine-3d-model",
+    "content": "This project involved modeling a pharmaceutical product (medicine container) in 3D for branding or promotional use. The focus was on achieving precise container geometry, realistic material finishes, and professional-level mockups suitable for presentation or client review.",
+    "gallery": [
       "/projects/algoriginMedicine/algorigin-medicine-hero.png",
       "/projects/algoriginMedicine/algorin-2.png",
       "/projects/algoriginMedicine/algorin-3.png",
@@ -817,34 +816,36 @@
       "/projects/algoriginMedicine/algorin-6.png",
       "/projects/algoriginMedicine/algorin-7.png"
     ],
-    client: "Self‑Initiated / Product Visualization",
-    duration: "5 days",
-    challenge: "Creating accurate and clean container modeling while applying realistic material surfaces suitable for reflective pharmaceutical packaging. Maintaining UV accuracy and achieving clarity in labeling and lighting was essential.",
-    solution: "Modeled the container in Blender with clean topology and applied accurate UV mapping. Materials were developed in Substance Painter for realistic packaging textures. Scene lighting and rendering were handled using Cycles, with final refinements and mockup compositing done in Photoshop.",
-    results: "Produced high-fidelity renders that effectively visualize the medicine container in a polished context. The visuals support packaging presentation and product branding workflows, enhancing design credibility and realism."
+    "client": "Self‑Initiated / Product Visualization",
+    "duration": "5 days",
+    "challenge": "Creating accurate and clean container modeling while applying realistic material surfaces suitable for reflective pharmaceutical packaging. Maintaining UV accuracy and achieving clarity in labeling and lighting was essential.",
+    "solution": "Modeled the container in Blender with clean topology and applied accurate UV mapping. Materials were developed in Substance Painter for realistic packaging textures. Scene lighting and rendering were handled using Cycles, with final refinements and mockup compositing done in Photoshop.",
+    "results": "Produced high-fidelity renders that effectively visualize the medicine container in a polished context. The visuals support packaging presentation and product branding workflows, enhancing design credibility and realism."
   },
   {
-    title: "Realistic Self-Portrait Illustration",
-    description: "A highly detailed self-portrait illustration created entirely in Adobe Illustrator, focusing on realism, lighting, and emotion — completed over a full month of vector work.",
-    id: "realistic-self-portrait-illustration",
-    createdAt: "2020-08-01",
-    updatedAt: "2020-08-31",
-    category: "Vector Illustration / Realism",
-    image: "/projects/realisticPortrait/realistic-self-portrait-cover.png",
-    technologies: [
+    "title": "Realistic Self-Portrait Illustration",
+    "description": "A highly detailed self-portrait illustration created entirely in Adobe Illustrator, focusing on realism, lighting, and emotion — completed over a full month of vector work.",
+    "id": "realistic-self-portrait-illustration",
+    "createdAt": "2020-08-01",
+    "updatedAt": "2020-08-31",
+    "category": "Vector Illustration / Realism",
+    "image": "/projects/realisticPortrait/realistic-self-portrait-cover.png",
+    "technologies": [
       "Adobe Illustrator"
     ],
-    link: "https://www.behance.net/gallery/74813775/Realistic-illustration",
-    featured: true,
-    slug: "realistic-self-portrait-illustration",
-    content: "This one-month self-portrait project demonstrates how Adobe Illustrator can be pushed to achieve near photo-realistic results. Every detail — from skin texture to highlights — was manually crafted using vector shapes, gradients, and mesh tools.",
-    gallery: [
+    "link": "https://www.behance.net/gallery/74813775/Realistic-illustration",
+    "featured": true,
+    "slug": "realistic-self-portrait-illustration",
+    "content": "This one-month self-portrait project demonstrates how Adobe Illustrator can be pushed to achieve near photo-realistic results. Every detail — from skin texture to highlights — was manually crafted using vector shapes, gradients, and mesh tools.",
+    "gallery": [
       "/projects/realisticPortrait/realistic-self-portrait-cover.png"
     ],
-    client: "Personal Project",
-    duration: "1 month",
-    challenge: "Achieving realistic depth, lighting, and softness using only vector-based tools in Adobe Illustrator, without raster effects or external textures.",
-    solution: "Built the entire illustration using Illustrator’s gradient mesh, blend, and shape builder tools. Carefully layered vectors and adjusted color transitions to simulate skin, hair, and fabric with realistic fidelity.",
-    results: "The final portrait was praised for its attention to detail and its rare, hyper-realistic finish — all within a purely vector format. It stands out as a technical and artistic showcase within the portfolio."
+    "client": "Personal Project",
+    "duration": "1 month",
+    "challenge": "Achieving realistic depth, lighting, and softness using only vector-based tools in Adobe Illustrator, without raster effects or external textures.",
+    "solution": "Built the entire illustration using Illustrator’s gradient mesh, blend, and shape builder tools. Carefully layered vectors and adjusted color transitions to simulate skin, hair, and fabric with realistic fidelity.",
+    "results": "The final portrait was praised for its attention to detail and its rare, hyper-realistic finish — all within a purely vector format. It stands out as a technical and artistic showcase within the portfolio."
   }                            
   ]
+
+  
